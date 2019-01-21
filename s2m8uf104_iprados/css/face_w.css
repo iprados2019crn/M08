@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: #e9eaed;
-  font-family: Lucida Grande;
+  font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
 }
 
 #barra{
@@ -12,13 +12,15 @@ body{
   top: 0;
   left: 0;
   right: 0;
+  z-index: 100;
 }
 
 #contingut{
-  height: 1820px;
+  height: auto;
   width: 852px;
-  background-color: lightgrey;
+  background-color: #e9eaed;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 #contingut #cap{
@@ -52,8 +54,8 @@ body{
 
 #contingut #cap #menu{
   height: 45px;
-  background-color: lightgrey;
-  width: 651px;
+  background-color: #e9eaed;
+  width: 591px;
   float: right;
   position: relative;
   top: 104px;
@@ -68,37 +70,190 @@ body{
   background-color: white;
   display: block;
   height: 45px;
-  padding: 0 20px;
+  padding: 0 15px;
   line-height: 43px;
   color:#5066ae;
 }
 
 #contingut #cap #menu li:hover{
-  background-color: rgb(240,240,240);
+  background-color: #e9eaed;
 }
 
 #principal{
   height: 1462px;
   width: 100%;
-  background-color: white;
+  background-color: #e9eaed;
+  overflow: hidden;
 }
 
 .izq{
-  height: 200px;
-  width: 322px;
-  background-color: grey;
-  border-radius: 3px;
+  height: auto;
+  width: 300px;
 }
 
-#fotos{
-  background-color: red;
-}
-
-#principal .izq{
-  float: left;
-
-}
-
-#principal .drc{
+.drc{
+  height: 100px;
+  width: 492px;
   float: right;
+  clear: right;
+}
+
+.izq, .drc{
+  background-color: white;
+  border-radius: 3px;
+  border: solid 1px #DDD;
+  margin-top: 12px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+aside{
+  width: 322px;
+  float: left;
+  clear: left;
+}
+
+#principal h3{
+  margin-top: 0;
+  text-indent: 30px;
+  line-height: 24px;
+  height: 24px;
+  background-image: url(../img/lateral.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
+#presentacion p{
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: solid 1px #DDD;
+
+}
+
+#presentacion, #amistades, #fotos, #sorpresa, #algo{
+font-size: 12px;
+}
+
+#amistades li, #fotos li{
+  list-style: none;
+}
+
+#principal #amistades li{
+  float: left;
+}
+
+#principal #fotos li{
+  float: left;
+  padding: 10px 20px;
+}
+
+#amistades h3{
+  background-position: 0 -48px;
+}
+
+#fotos h3{
+  background-position: 0 -24px;
+}
+
+#sorpresa h3{
+  background-position: 0 -72px;
+}
+
+#algo h3{
+  background-position: 0 -96px;
+}
+
+.estudios{
+list-style-image: url(../iconetes/icones_estudis.png);
+}
+
+.donde{
+list-style-image: url(../iconetes/icones_domicili.png);
+}
+
+.nacio{
+list-style-image: url(../iconetes/icones_ubicacio.png);
+}
+
+.trabajo{
+list-style-image: url(../iconetes/icones_feina.png);
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:visited{
+  color: red;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+a:active{
+  color: darkred;
+  text-decoration: none;
+}
+
+#amistades ul{
+  margin: 0;
+  padding: 0;
+}
+
+#amistades li{
+  background-color: yellow;
+  margin: 2px;
+  float: left;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+}
+
+#Sandra{
+  background-image: url(https://sperez2019crn.github.io/M08/s2m8uf104_sperez/img/fotoperfil.jpg);
+  background-size: cover;
+}
+
+#Oriol{
+  background-image: url(https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png);
+  background-size: cover;
+}
+
+#Noe{
+  background-image: url(https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg);
+  background-size: cover;
+}
+
+#Patri{
+  background-image: url(https://psanz2019crn.github.io/M08/s2m8uf104_sanz/img/aoperfil.gif);
+  background-size: cover;
+}
+
+#Siria{
+  background-image: url(https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png);
+  background-size: cover;
+}
+
+#Hulio{
+  background-image: url(https://mmunozp2019crn.github.io/M08/s2m8uf104_munoz/img/logo.jpg);
+  background-size: cover;
+}
+
+#Steeven{
+  background-image: url(https://sgarzon2019crn.github.io/M08/s2m8uf104_facebook/img/perfil.jpg);
+  background-size: cover;
+}
+
+#Thor{
+  background-image: url(https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png);
+  background-size: cover;
+}
+
+#Yaiza{
+  background-image: url(https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg);
+  background-size: cover;
 }
