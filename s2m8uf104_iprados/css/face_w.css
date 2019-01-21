@@ -180,12 +180,12 @@ list-style-image: url(../iconetes/icones_feina.png);
 }
 
 a:link{
-  color: red;
+  color: blue;
   text-decoration: none;
 }
 
 a:visited{
-  color: red;
+  color: white;
   text-decoration: none;
 }
 
@@ -205,7 +205,6 @@ a:active{
 }
 
 #amistades li{
-  background-color: yellow;
   margin: 2px;
   float: left;
   height: 90px;
@@ -256,4 +255,13 @@ a:active{
 #Yaiza{
   background-image: url(https://yromero2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/perfil1.jpg);
   background-size: cover;
+}
+
+#amistades p{
+  background-color: rgba(0,0,0,0.4);
+  margin: 0;
+  padding: 0;
+  padding-top: 40px;
+  height: 50px;
+  width: 90px;
 }
