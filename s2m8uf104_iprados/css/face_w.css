@@ -506,6 +506,7 @@ background-position: 0 8px;
     padding: 0;
     background-color: #e9eaed;
     font-family: 'Lucida Grande', Tahoma, Segoe UI, San Francisco, Roboto;
+    overflow-x: hidden;
   }
 
   #barra{
