@@ -6,11 +6,11 @@ background-color: green;
 
 }
 
-@media(max-width: 1999px){
+@media(max-width: 959px){
 
 body{
 background-color: red;
-overflow-x: hidden; 
+overflow-x: hidden;
 }
 
 }
