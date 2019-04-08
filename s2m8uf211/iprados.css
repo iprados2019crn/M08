@@ -10,7 +10,7 @@ body{
   margin: 0 auto;
   padding: 0;
   height: 900px;
-  overflow: hidden;
+  overflow: scroll;
   background-color: rgb(20, 20, 20);
 }
 
