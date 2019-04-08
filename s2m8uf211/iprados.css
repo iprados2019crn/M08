@@ -1,0 +1,287 @@
+@media (min-width: 700px) {
+
+html{
+  margin: 0 auto;
+  padding: 0;
+  width: 960px;
+  height: 750px;
+  font-family: helvetica, sans-serif;
+}
+
+body{
+  margin: 0 auto;
+  padding: 0;
+  height: 900px;
+  overflow: hidden;
+  background-color: rgb(20, 20, 20);
+}
+
+header{
+    height: 150px;
+    width: 100%;
+  background-color: rgb(70, 70, 70);
+}
+
+h1, h5{
+  margin: 0;
+  padding: 0;
+}
+
+#lateral h5{
+  line-height: 325px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#usuario{
+  height: 150px;
+  width: 150px;
+  float: left;
+  text-align: center;
+  border-right: 2px solid rgb(20, 20, 20);
+}
+
+#usuario img{
+  height: 50px;
+  width: 50px;
+  margin-top: 40px;
+  background-size: cover;
+}
+
+#lista{
+  height: 100%;
+  width: 720px;
+  text-align: center;
+  float: right;
+}
+
+#general{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  padding-left: 10px;
+}
+
+#lateral{
+  height: 100%;
+  width: 23%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.elemento{
+  height: 175px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  text-align: center;
+}
+
+#drc{
+  width: 75%;
+  float: right;
+}
+
+#reproductor{
+  height: 250px;
+  width: 85%;
+  margin: 0 auto;
+  background-color: brown;
+}
+
+#canciones{
+  height: auto;
+  width: 100%;
+  padding: 2px;
+  background-color: aqua;
+}
+
+.cancion{
+  height: 50px;
+  width: 98%;
+  margin: 5px;
+  background-color: green;
+}
+
+.favorito{
+  background-image: url(img/heart.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+  height: 50px;
+  width: 40px;
+  float: left;
+  margin-right: 5px;
+}
+
+.nombrecancion{
+  height: 50px;
+  width: 250px;
+  float: left;
+  background-color: grey;
+  margin-right: 10px;
+}
+
+.autor{
+
+    height: 50px;
+    width: 250px;
+    float: left;
+    background-color: grey;
+    margin-right: 10px;
+}
+
+.duracion{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+#contenidor {
+  width: 500px;
+  height: 920px;
+  padding: 20px;
+  background: #000;
+}
+
+/* --------------- Tiradors ----------------- */
+
+input[type=range] {
+  -webkit-appearance: none; /* Amaga el tirador per fer la màgia */
+  width: 100%; /* Firefox necessita una amplada específica */
+  background: transparent;  /* Amaga el tirador per fer la màgia */
+  background: rgba(255,255,255, 0.2);
+  margin: 0.0px 0;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+input[type=range]:focus {
+  outline: none; /* Per no veure el contorn */
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d; */
+  background: #4c4d4d;
+  border-radius: 10px;
+  border: 0px solid #010101;
+}
+
+/* Controlador */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: rgba(255,255,255, 0.3);
+  cursor: pointer;
+  position: relative;
+  margin-top: -0.0px;
+
+  box-shadow: 0px 0px 1px #670000, 0px 0px 0px #8100000;
+  border: 0px solid #ff1e00;
+}
+
+/*  opcional  */
+/*
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: red;
+  border-radius: 10px;
+}
+*/
+
+
+/* --------------- Botons ----------------- */
+
+#playpause {
+  position:relative;
+  border:none;
+  text-decoration:none;
+  width: 100px;
+  height: 100px;
+  background: #4c4d4d;
+  border-radius: 50px;
+}
+
+#playpause:focus {
+  outline: none; /* Per no veure el contorn */
+}
+#playpause:before, #playpause:after, #playpause:focus:before, #playpause:focus:after {
+  position: absolute;
+  content: " ";
+  z-index: 10000;
+}
+#playpause:before, #playpause:after {
+  height: 47px;
+  width: 19px;
+  left: 29px;
+  top: 28px;
+  display: block;
+  background: white;
+}
+
+#playpause:after {
+ left: 54px;
+}
+
+#playpause:focus:before {
+  top: 28px;
+  left: 34px;
+  width: 0;
+  height: 0;
+  border-left: 47px solid white;
+  border-right: 24px solid transparent;
+  border-bottom: 24px solid transparent;
+  border-top: 24px solid transparent;
+  display: block;
+  background: transparent;
+}
+
+#playpause:focus:after {
+ visibility:hidden;
+}
+
+.botons{
+  width: 160px;
+  margin: 0 auto;
+  position: relative;
+  top: 18px;
+}
+
+#cosomusica{
+  position: relative;
+  top: 100px;
+}
+
+
+}

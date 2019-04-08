@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+
+      #tot{
+        width: 80%;
+        margin: 0 auto;
+      }
+
+      img{
+        width: 100%;
+        padding: 0;
+      }
+
+      #imgpetit{
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+
+      .fotos{
+        height: 100px;
+        width: 100px;
+        float: left;
+        margin-left: 10px;
+        border: solid black 1px;
+      }
+
+      #imatge{
+        width: 800px;
+        height: 500px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+<div id="tot">
+    <audio autoplay controls id="imatge" src="killer.mp3" type="audio/mpeg"></audio>
+
+    <div id="imgpetit">
+
+      <div class="fotos" src="killer.mp3" type="audio/mpeg">
+        <audio class="foto"  src="killer.mp3" type="audio/mpeg"></audio>
+      </div>
+      <div class="fotos" src="killer.mp3" type="audio/mpeg">
+        <audio class="fotos" src="stop.mp3" type="audio/mpeg"></audio>
+      </div>
+      <div class="fotos" src="killer.mp3" type="audio/mpeg">
+        <audio class="fotos" src="Shark.mp3" type="audio/mpeg"></audio>
+      </div>
+</div>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" languaje="javascript">
+
+var image=document.getElementById('imatge');
+var foton=document.getElementsByClassName('foto');
+
+function video0(){
+  image.src=foton[0].src;
+}
+
+function video1(){
+  image.src=foton[1].src;
+}
+
+function video2(){
+  image.src=foton[2].src;
+}
+
+function video3(){
+  image.src=foton[3].src;
+}
+
+function video4(){
+  image.src=foton[4].src;
+}
+
+foton[0].addEventListener('click', video0);
+foton[1].addEventListener('click', video1);
+foton[2].addEventListener('click', video2);
+foton[3].addEventListener('click', video3);
+foton[4].addEventListener('click', video4);
+
+</script>
+
+  </body>
+</html>
