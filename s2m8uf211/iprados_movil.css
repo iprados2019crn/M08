@@ -11,7 +11,7 @@ html{
   padding: 0;
   height: 960px;
   overflow: hidden;
-  background-color: red;
+  background-color: rgb(20, 20, 20);
   font-family: helvetica, sans-serif;
 }
 
@@ -106,25 +106,27 @@ a:visited{
 
 #drc{
   width: 75%;
-  float: right;
+  float: left;
 }
 
 #reproductor{
   height: 250px;
   width: 85%;
   margin: 0 auto;
-  background-color: brown;
+  margin-bottom: 10px;
+  background-color: rgb(50, 50, 50);
 }
 
 #canciones{
   height: auto;
-  width: 80%;
+  width: 85%;
+  margin: 0 auto;
   background-color: aqua;
 }
 
 .cancion{
   height: 25px;
-  width: 90%;
+  width: 100%;
   margin: 5px 0 5px 0;
   background-color: green;
 }
@@ -171,13 +173,6 @@ a:visited{
 
 
 
-#contenidor {
-  width: 500px;
-  height: 920px;
-  padding: 20px;
-  background: #000;
-}
-
 /* --------------- Tiradors ----------------- */
 
 input[type=range] {
@@ -206,13 +201,13 @@ input[type=range]::-webkit-slider-runnable-track {
 /* Controlador */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  height: 20px;
-  width: 20px;
+  height: 5px;
+  width: 5px;
   border-radius: 10px;
   background: rgba(255,255,255, 0.3);
   cursor: pointer;
   position: relative;
-  margin-top: -0.0px;
+  margin-top: 7.0px;
 
   box-shadow: 0px 0px 1px #670000, 0px 0px 0px #8100000;
   border: 0px solid #ff1e00;
@@ -278,10 +273,12 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 }
 
 .botons{
-  width: 160px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   top: 18px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #cosomusica{
@@ -289,4 +286,8 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   top: 100px;
 }
 
+#barra{
+  height: 5px;
+  display: inline-block;
+}
 }
