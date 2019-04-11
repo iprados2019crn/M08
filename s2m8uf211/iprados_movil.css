@@ -110,8 +110,9 @@ a:visited{
 }
 
 #reproductor{
-  height: 250px;
+  height: 235px;
   width: 85%;
+  padding: 5px;
   margin: 0 auto;
   margin-bottom: 10px;
   background-color: rgb(50, 50, 50);
@@ -139,29 +140,29 @@ a:visited{
   height: 20px;
   width: 10%;
   float: left;
-  margin-right: 5px;
+  margin-right: 1%;
 }
 
 .nombrecancion{
   height: 25px;
-  width: 250px;
+  width: 31%;
   float: left;
   background-color: grey;
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .autor{
     height: 25px;
-    width: 250px;
+    width: 31%;
     float: left;
     background-color: grey;
-    margin-right: 10px;
 }
 
 .duracion{
     height: 25px;
-    width: 50px;
-    float: left;
+    width: 20%;
+    float: right;
+    margin-right: 1%;
     background-color: black;
 }
 
