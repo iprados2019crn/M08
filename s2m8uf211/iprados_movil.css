@@ -4,7 +4,6 @@
 html{
   margin: 0 auto;
   padding: 0;
-  width: 959px;
   height: 960px;
   overflow: hidden;
   background-color: red;
@@ -18,18 +17,14 @@ body{
 }
 
 header{
-    height: 50px;
-    width: 100%;
+  height: 75px;
+  width: 100%;
   background-color: rgb(70, 70, 70);
 }
 
 h1, h5{
   margin: 0;
   padding: 0;
-}
-
-#lateral h5{
-  line-height: 325px;
 }
 
 a{
@@ -50,18 +45,18 @@ a:visited{
 }
 
 #usuario{
-  height: 50px;
-  width: 50px;
+  height: 75px;
+  width: 75px;
   float: left;
   text-align: center;
-  font-size: 0.5em;
-  line-height: 1em;
+  font-size: 0.75em;
+  line-height: 1.1em;
   border-right: 2px solid rgb(20, 20, 20);
 }
 
 #usuario img{
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   margin-top: 10px;
   background-size: cover;
 }
@@ -90,8 +85,12 @@ a:visited{
   float: left;
 }
 
+#lateral h5{
+  line-height: 180px;
+}
+
 .elemento{
-  height: 175px;
+  height: 100px;
   width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
@@ -113,15 +112,14 @@ a:visited{
 
 #canciones{
   height: auto;
-  width: 100%;
-  padding: 2px;
+  width: 80%;
   background-color: aqua;
 }
 
 .cancion{
-  height: 50px;
-  width: 98%;
-  margin: 5px;
+  height: 25px;
+  width: 90%;
+  margin: 5px 0 5px 0;
   background-color: green;
 }
 
@@ -130,14 +128,14 @@ a:visited{
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 2px 4px;
-  height: 50px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   float: left;
   margin-right: 5px;
 }
 
 .nombrecancion{
-  height: 50px;
+  height: 25px;
   width: 250px;
   float: left;
   background-color: grey;
@@ -145,8 +143,7 @@ a:visited{
 }
 
 .autor{
-
-    height: 50px;
+    height: 25px;
     width: 250px;
     float: left;
     background-color: grey;
@@ -154,7 +151,7 @@ a:visited{
 }
 
 .duracion{
-    height: 50px;
+    height: 25px;
     width: 50px;
     float: left;
     background-color: black;
