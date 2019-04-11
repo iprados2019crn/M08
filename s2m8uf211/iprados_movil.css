@@ -1,12 +1,13 @@
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 959px) {
 
 
 html{
   margin: 0 auto;
   padding: 0;
-  width: 960px;
-  height: 750px;
+  width: 959px;
+  height: 960px;
   overflow: hidden;
+  background-color: red;
   font-family: helvetica, sans-serif;
 }
 
@@ -14,11 +15,10 @@ body{
   margin: 0 auto;
   padding: 0;
   height: 900px;
-  background-color: rgb(20, 20, 20);
 }
 
 header{
-    height: 150px;
+    height: 50px;
     width: 100%;
   background-color: rgb(70, 70, 70);
 }
@@ -50,17 +50,19 @@ a:visited{
 }
 
 #usuario{
-  height: 150px;
-  width: 150px;
+  height: 50px;
+  width: 50px;
   float: left;
   text-align: center;
+  font-size: 0.5em;
+  line-height: 1em;
   border-right: 2px solid rgb(20, 20, 20);
 }
 
 #usuario img{
-  height: 50px;
-  width: 50px;
-  margin-top: 40px;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
   background-size: cover;
 }
 
