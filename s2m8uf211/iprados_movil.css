@@ -4,12 +4,13 @@
   padding:0;
   margin: 0;
   overflow: hidden;
+  color: white;
 }
 
 html{
   margin: 0 auto;
   padding: 0;
-  height: 960px;
+  height: 100%;
   overflow: hidden;
   background-color: rgb(20, 20, 20);
   font-family: helvetica, sans-serif;
@@ -18,7 +19,7 @@ html{
 body{
   margin: 0 auto;
   padding: 0;
-  height: 900px;
+  height: 960px;
   overflow: hidden;
 }
 
@@ -80,32 +81,38 @@ a:visited{
   margin: 0;
   margin-top: 10px;
   padding: 0;
-  padding-left: 10px;
 }
 
 #lateral{
-  height: 100%;
-  width: 23%;
+  height: 75px;
+  width: 100%;
   margin: 0;
   padding: 0;
-  float: left;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(70, 70, 70);
+
 }
 
 #lateral h5{
-  line-height: 180px;
+  line-height: 125px;
 }
 
 .elemento{
-  height: 100px;
-  width: 100%;
+  height: 100%;
+  width: 23%;
   margin: 0 auto;
-  margin-bottom: 10px;
-  background-color: lightblue;
+  margin: 0 1% 0 0.5%;
+  float: left;
   text-align: center;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
 }
 
 #drc{
-  width: 75%;
+  width: 100%;
   float: left;
 }
 
@@ -122,14 +129,14 @@ a:visited{
   height: auto;
   width: 85%;
   margin: 0 auto;
-  background-color: aqua;
 }
 
 .cancion{
   height: 25px;
   width: 100%;
   margin: 5px 0 5px 0;
-  background-color: green;
+  padding: 2px;
+  background-color: rgb(30,30,30);
 }
 
 .favorito{
@@ -147,15 +154,17 @@ a:visited{
   height: 25px;
   width: 31%;
   float: left;
-  background-color: grey;
   margin-right: 2%;
+  line-height: 2.2em;
+  font-size: 0.7em;
 }
 
 .autor{
     height: 25px;
     width: 31%;
     float: left;
-    background-color: grey;
+    line-height: 2.2em;
+    font-size: 0.7em;
 }
 
 .duracion{
@@ -163,7 +172,11 @@ a:visited{
     width: 20%;
     float: right;
     margin-right: 1%;
-    background-color: black;
+    line-height: 2.2em;
+    font-size: 0.7em;
+    text-align: center;
+    border:solid black 1px;
+    background-color: rgba(40,40,40,0.8)
 }
 
 

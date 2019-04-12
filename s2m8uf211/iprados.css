@@ -85,6 +85,7 @@ a:visited{
   width: 23%;
   margin: 0;
   padding: 0;
+  background-color: rgb(70, 70, 70);
   float: left;
 }
 
@@ -93,8 +94,11 @@ a:visited{
   width: 100%;
   margin: 0 auto;
   margin-bottom: 10px;
-  background-color: lightblue;
   text-align: center;
+}
+
+.elemento:hover{
+  background-color: rgb(40, 40, 40);
 }
 
 #drc{
