@@ -1,0 +1,18 @@
+@media only screen and (min-width: 481px) {
+
+*{
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: red;
+}
+
+}
