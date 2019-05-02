@@ -18,7 +18,10 @@ body{
 .foto{
 height: 200px;
 width: 200px;
-background-color: rgba(255,153,51,1);
+background-image: url(../iconetes/logo.png);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 50%;
 margin: 0 auto;
 margin-top: 75px;
 margin-bottom: 20px;
@@ -143,8 +146,10 @@ button{
   margin-top: 5px;
 }
 
-#acceder:active{
-  background-color: rgba(255,153,51,0.3);
+.hreff{
+  height: 17px;
+  width: 100px;
 }
+
 
 }
