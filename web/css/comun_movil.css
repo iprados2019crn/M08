@@ -1,0 +1,145 @@
+*{
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body{
+  background-color: rgba(255,153,51,0.3);
+}
+
+p{
+font-size: 0.7em;
+text-align: center;
+margin-top: 3px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+}
+
+h5{
+font-size: 1em;
+text-align: center;
+}
+
+header{
+  height: 8%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  top: 0;
+}
+
+header h2{
+  font-size: 1em;
+  line-height: 3.7em;
+  padding-left: 3%;
+  float: left;
+}
+
+header p{
+  font-size: 0.8em;
+  line-height: 3.8em;
+  padding-right: 3%;
+  float: right;
+}
+
+hr{
+  border: 1px solid #222;
+  border-radius: 2px;
+  width: 80%;
+  margin: 20px auto;
+  color: red;
+  background-color: red;
+}
+
+.central{
+position: absolute;
+top: 9%;
+height: 80%;
+width: 100%;
+}
+.central a {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.central a:active, .central a:focus {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0;
+}
+
+.apartado{
+  height: 15%;
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  border: solid 1px rgb(255,153,51);
+  border-radius: 10px;
+}
+
+.apartado h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 5.3em;
+  padding-left: 5px;
+}
+
+.lista{
+  height: 100%;
+  width: 24.7%;
+  float: left;
+  text-align: center;
+}
+.lista p{
+  font-size: 0.7em;
+  margin-left: -5px;
+  margin-top: -0.8px;
+}
