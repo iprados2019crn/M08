@@ -1,0 +1,9 @@
+textarea{
+  height: 84%;
+  width: 84%;
+  margin: 0 auto;
+  margin: 5%;
+  padding: 3%;
+  overflow-y: scroll;
+  border: solid 2px rgb(255,153,51);
+}

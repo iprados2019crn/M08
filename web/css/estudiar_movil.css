@@ -32,7 +32,7 @@ h3{
 }
 
 .dentro{
-  height: 80%;
+  height: auto;
   width: 90%;
   margin: 0 auto;
   text-align: left;
@@ -41,6 +41,7 @@ h3{
 
 .dentro p{
   text-align: left;
+  font-size: 0.8em;
 }
 
 .info{
