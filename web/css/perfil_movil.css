@@ -1,5 +1,6 @@
 @media only screen and (max-width: 480px) {
 
+
 .central{
   width: 96%;
   margin-left: 2%;
@@ -23,9 +24,31 @@
   float: right;
 }
 
-ul{
-  height: 100%;
-  background-color: red;
+.txt{
+  float: left;
+  width: 25%;
+}
+
+.txt p{
+  margin-bottom: 4em;
+  text-align: left;
+  height: 20px;
+}
+
+.inp{
+  width: 75%;
+  float: right;
+}
+
+.inp input{
+  height: 17.2px;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  float: right;
+  margin-right: 0;
+  margin-bottom: 4em;
+  outline: none;
 }
 
 .abajo{
@@ -48,6 +71,16 @@ ul{
   bottom: 15px;
   right: 0px;
   border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0px;
 }
 
 }
