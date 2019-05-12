@@ -29,7 +29,6 @@ header #atras{
   padding: 0;
   padding-top: 3%;
   margin-left: 2%;
-  z-index: 1000;
 }
 
 .contenedor{
@@ -48,7 +47,7 @@ header #atras{
   bottom: 1%;
   left: 1%;
   right: 1%;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .izq{
