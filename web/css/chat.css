@@ -1,0 +1,78 @@
+button{
+  padding: 5px;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+}
+
+h3{
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right:0;
+  line-height: 300%;
+  text-align: center;
+}
+
+header #atras{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 3%;
+  margin-left: 2%;
+  z-index: 1000;
+}
+
+.contenedor{
+  position: absolute;
+  top: 7%;
+  left: 4%;
+  height: 88.2%;
+  width: 92%;
+}
+
+.contenido{
+  height: 98%;
+  width: 98%;
+  position: relative;
+  top: 1%;
+  bottom: 1%;
+  left: 1%;
+  right: 1%;
+  overflow: scroll;
+}
+
+.izq{
+  height: auto;
+  width: 80%;
+  background-color: rgba(255,127,80,0.5);
+  float: left;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+
+.drc{
+    height: auto;
+    width: 80%;
+    background-color: rgba(255,140,0,0.5);
+    float: right;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+input{
+  position: absolute;
+  bottom: 0;
+  height: 4%;
+  width: 97%;
+  margin-left: 1%;
+}

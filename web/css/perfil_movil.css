@@ -75,7 +75,93 @@
 }
 
 footer{
-    height: 7%;
+    height: 8%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0;
+}
+
+}
+
+@media only screen and (min-width: 481px) {
+
+
+.central{
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.arriba{
+  height: 50%;
+  width: 100%;
+}
+
+.izq{
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.drc{
+  height: 100%;
+  width: 50%;
+  float: right;
+  padding-top: 15%;
+}
+
+.txt{
+  float: left;
+  width: 25%;
+}
+
+.txt p{
+  margin-bottom: 2.6em;
+  text-align: left;
+  height: 20px;
+}
+
+.inp{
+  width: 75%;
+  float: right;
+}
+
+.inp input{
+  height: 17.2px;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  float: right;
+  margin-right: 0;
+  margin-bottom: 2.1em;
+  outline: none;
+}
+
+.abajo{
+    height: 50%;
+    width: 100%;
+}
+
+.apartado{
+  line-height: 3em;
+  font-size: 0.9em;
+  padding-left: 2%;
+}
+
+.legales{
+  font-size: 0.6em;
+  text-align: right;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  bottom: 15px;
+  right: 0px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+footer{
+    height: 8%;
     width: 100%;
     background-color: rgb(255,153,51);
     position: absolute;

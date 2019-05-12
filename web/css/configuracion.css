@@ -1,0 +1,72 @@
+@media only screen and (max-width: 480px) {
+
+
+.central{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h6{
+  font-size: 1em;
+  border-bottom: solid 1px black;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.cerrar{
+  font-size: 0.6em;
+  text-align: right;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  bottom: 50%px;
+  right: 0px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.abajo{
+  height: 15%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  position: absolute;
+  bottom: 9%;
+  left: 10%;
+  right: 10%;
+}
+
+.rrss{
+  height: 50px;
+  width: 50px;
+  background-image: url(../iconetes/rrss.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 5px;
+}
+
+.facebook{
+}
+
+.google{
+  background-position: 0px -50px;
+}
+
+.twitter{
+  background-position: 0px -150px;
+}
+
+.insta{
+  background-position: 0px -100px;
+}
+
+footer{
+    height: 8%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0;
+}
+
+}
