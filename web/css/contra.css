@@ -1,3 +1,4 @@
+@media only screen and (max-width: 480px) {
 header{
 }
 
@@ -46,4 +47,5 @@ button{
   border: 1px solid;
   font-size: 0.6em;
   text-align: center;
+}
 }
