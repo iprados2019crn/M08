@@ -1,0 +1,74 @@
+body{
+}
+
+.central{
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.central h1{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.central p{
+  margin: 0;
+  text-align: left;
+}
+
+hr{
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#fotobjetivo{
+  height: 25%;
+  width: 80%;
+  position: absolute;
+  bottom: 28%;
+  left: 10%;
+  right: 10%;
+  background-color: red;
+  background-image: url();
+}
+
+#fotobjetivo2{
+  height: 25%;
+  width: 80%;
+  position: absolute;
+  bottom: 28%;
+  left: 10%;
+  right: 10%;
+  background-color: red;
+  background-image: url();
+}
+
+#fotobjetivo3{
+  height: 25%;
+  width: 80%;
+  position: absolute;
+  bottom: 28%;
+  left: 10%;
+  right: 10%;
+  background-color: red;
+  background-image: url();
+}
+
+.fav{
+  height: 55%;
+  width: 5%;
+  background-image: url(../iconetes/favorite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 10px;
+  top: 10%;
+  bottom: 30%;
+}

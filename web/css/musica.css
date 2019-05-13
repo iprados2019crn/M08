@@ -1,0 +1,19 @@
+@media only screen and (max-width: 480px) {
+
+.central{
+  position: absolute;
+  height: 80%;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow-y: scroll;
+}
+
+iframe{
+  margin-top: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 0px solid rgb(255,153,51);
+}
+
+}

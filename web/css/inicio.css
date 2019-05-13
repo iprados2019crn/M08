@@ -1,165 +1,22 @@
 @media only screen and (max-width: 480px) {
 
-*{
-  padding:0;
-  margin: 0;
-  overflow: hidden;
-  font-family: Helvetica;
-}
+  .tecnicas{
+    border: solid 1px rgb(255, 153, 51);
+  }
+  .errores{
 
-html{
+  }
+  .objetivos{
 
-}
+  }
+  .estudiar{
 
-body{
-  background-color: rgba(255,153,51,0.3);
-}
+  }
+  .consejos{
 
-.foto{
-height: 200px;
-width: 200px;
-background-image: url(../iconetes/logo.png);
-background-size: cover;
-background-repeat: no-repeat;
-border-radius: 50%;
-margin: 0 auto;
-margin-top: 75px;
-margin-bottom: 20px;
-}
+  }
+  .musica{
 
-input{
-  outline: none;
-  margin: 0 auto;
-  padding-left: 25px;
-  margin-bottom: 5px;
-  width: 150px;
-}
-
-.uno{
-  margin: 0 auto;
-  text-align: center;
-}
-
-#i1{
-  background: url(../iconetes/man-user.png);
-  background-color: white;
-  padding: 2px;
-  padding-left: 25px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: solid white 2px;
-  color: black;
-}
-
-#i2{
-  background: url(../iconetes/padlock.png);
-  background-color: white;
-  padding: 2px;
-  padding-left: 25px;
-  margin-left: -6px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border: solid white 2px;
-  color: black;
-}
-
-p{
-font-size: 0.7em;
-text-align: center;
-margin-top: 3px;
-}
-
-a{
-  color: black;
-  text-decoration: none;
-    outline: none;
-    outline-style: none;
-}
-a:active{
-  color: black;
-  text-decoration: none;
-    outline: none;
-    outline-style: none;
-}
-a:hover{
-  color: black;
-  text-decoration: none;
-    outline: none;
-    outline-style: none;
-}
-a:visited{
-  color: black;
-  text-decoration: none;
-    outline: none;
-    outline-style: none;
-}
-a:hover{
-}
-
-h5{
-font-size: 1em;
-text-align: center;
-}
-
-hr{
-  border: 1px solid #222;
-  border-radius: 2px;
-  width: 80%;
-  margin: 20px auto;
-  color: red;
-  background-color: red;
-}
-
-button{
-  color: red;
-}
-
-.tres{
-  margin: 0 auto;
-  width: 225px;
-}
-
-.rrss{
-  height: 50px;
-  width: 50px;
-  background-image: url(../iconetes/rrss.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  float: left;
-  margin-left: 5px;
-}
-
-#facebook{
-}
-
-#google{
-  background-position: 0px -50px;
-}
-
-#twitter{
-  background-position: 0px -150px;
-}
-
-#insta{
-  background-position: 0px -100px;
-}
-
-#acceder{
-  font-size: 0.8em;
-  height: 17px;
-  width: 100px;
-  border: solid 2px rgb(255,153,51);
-  margin: 0 auto;
-  line-height: 1.4em;
-  text-align: center;
-  border-radius: 10px;
-  margin-top: 5px;
-}
-
-.hreff{
-  height: 17px;
-  width: 100px;
-}
-
+  }
 
 }

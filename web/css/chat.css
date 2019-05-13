@@ -29,13 +29,14 @@ header #atras{
   padding: 0;
   padding-top: 3%;
   margin-left: 2%;
+  z-index: 10000;
 }
 
 .contenedor{
   position: absolute;
   top: 7%;
   left: 4%;
-  height: 88.2%;
+  height: 86%;
   width: 92%;
 }
 
@@ -70,8 +71,8 @@ header #atras{
 
 input{
   position: absolute;
-  bottom: 0;
-  height: 4%;
+  bottom: 1%;
+  height: 5%;
   width: 97%;
   margin-left: 1%;
 }
