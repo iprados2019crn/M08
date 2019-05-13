@@ -1,21 +1,29 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
 
   .tecnicas{
-    border: solid 1px rgb(255, 153, 51);
+    background-image: url(../imagenes/tecnicas.jpg);
+    background-size: cover;
   }
   .errores{
-
+      background-image: url(../imagenes/error.jpg);
+      background-size: cover;
   }
   .objetivos{
-
+      background-image: url(../imagenes/.jpg);
+      background-size: cover;
   }
   .estudiar{
-
+      background-image: url(../imagenes/estudiar.jpg);
+      background-size: cover;
   }
   .consejos{
+    background-image: url(../imagenes/consejos.jpg);
+    background-size: cover;
 
   }
   .musica{
+    background-image: url(../imagenes/musica.jpg);
+    background-size: cover;
 
   }
 
