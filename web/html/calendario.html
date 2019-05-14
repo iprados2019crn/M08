@@ -12,6 +12,7 @@
   <link rel="icon" sizes="512x512" href="../iconetes/logo.png">
   <link rel="apple-touch-icon" sizes="192x192" href="img/icon.png">
   <link rel="stylesheet" type="text/css" href="../css/comun.css">
+  <link rel="stylesheet" href="../css/barra_vertical.css">
 
   <title>A+ Study</title>
 
@@ -604,7 +605,6 @@
 
         #calendar{
           background-color: white;
-          margin-top: 40px;
           padding: 10px;
           border: solid 2px rgb(255,153,51);
         }
@@ -636,7 +636,48 @@
           padding-left: 5px;
         }
 
-    </style>
+
+
+
+
+
+
+@media only screen and (max-width: 480px)  and (orientation: portrait) {
+  .calendario{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 9%;
+    height: 60%;
+    width: 92%;
+  }
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+  .calendario{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 4%;
+    height: 73%;
+    width: 94%;
+  }
+}
+
+
+
+@media only screen and (min-width: 740px){
+  .calendario{
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 4%;
+    height: 80%;
+    width: 50%;
+  }
+}
+
+</style>
 
     <script src="../js/calendario/prefixfree.min.js"></script>
 
@@ -650,7 +691,7 @@
   </header>
 
 
-
+<div class="calendario">
   <div id="calendar"></div>
 
 
@@ -662,6 +703,7 @@
 <a href="objetivos.html">  <div id="apartado">
     <h3>Objetivos</h3>
   </div></a>
+</div>
 
 
 
