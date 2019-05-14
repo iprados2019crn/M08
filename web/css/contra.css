@@ -1,5 +1,17 @@
 @media only screen and (max-width: 480px)  and (orientation: portrait) {
-header h2{
+
+  *{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  }
+
+header #atras{
   height: 100%;
   width: auto;
   background-image: url(../iconetes/atras.png);
@@ -31,6 +43,7 @@ header h2{
 .central input{
   width: 55%;
   margin-bottom: 2%;
+  outline: none;
 }
 
 button{
@@ -48,7 +61,28 @@ button{
 }
 
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+
+
+  *{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  }
 
   header #atras{
     height: 100%;
@@ -87,6 +121,7 @@ button{
   .central input{
     width: 55%;
     margin-bottom: 3%;
+    outline: none;
   }
 
   button{
@@ -99,6 +134,87 @@ button{
     padding: 3px;
     border: 1px solid;
     font-size: 0.6em;
+    text-align: center;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
+
+  *{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+    font-family: Helvetica;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+  }
+
+  header #atras{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    background-image: url(../iconetes/atras.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+    margin-left: 2%;
+  }
+
+
+  .central{
+    text-align: left;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  .central h5{
+  font-size: 1.3em;
+  margin-bottom: 5%;
+  }
+
+  .central p{
+    text-align: left;
+    margin-bottom: 2%;
+  }
+
+  .central input{
+    width: 55%;
+    height: 10%;
+    font-size: 0.9em;
+    padding: 3px;
+    margin-bottom: 2%;
+    outline: none;
+  }
+
+  button{
+    margin: 0;
+    padding: 0;
+  }
+
+  .central #buscar{
+    width: 15%;
+    padding: 3px;
+    border: 1px solid;
+    font-size: 0.7em;
     text-align: center;
   }
 

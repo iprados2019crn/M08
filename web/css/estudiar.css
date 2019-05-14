@@ -46,23 +46,16 @@ h3{
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
 
-  header #atras{
-    height: 100%;
-    width: auto;
-    position: absolute;
-    background-image: url(../iconetes/atras.png);
-    background-size: cover;
-    background-position: 0 -2px;
-    background-repeat: no-repeat;
-    font-size: 0.8em;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-top: 2.5%;
-    margin-left: 2%;
-  }
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
 
   .central{
     position: absolute;
@@ -108,3 +101,59 @@ h3{
   }
 
   }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 740px){
+
+    .central{
+      position: absolute;
+      width: 100%;
+      overflow-y: scroll;
+    }
+
+    .apartado{
+      height: 25%;
+      width: 92%;
+      margin: 0 auto;
+      margin-top: 1.5%;
+      margin-bottom: 1%;
+      background-color: rgba(255,153,51,0.3);
+      border: solid 2px rgb(255,153,51);
+      border-radius: 10px;
+      padding-top: 0;
+    }
+
+    h3{
+      margin: 0;
+      margin-left: 10px;
+      padding: 0;
+      padding-top: 15px;
+      font-size: 1em;
+      height: 10%;
+      width: 100%;
+      position: relative;
+    }
+
+    .dentro{
+      height: auto;
+      width: 90%;
+      margin: 0 auto;
+      text-align: left;
+      position: relative;
+    }
+
+    .dentro p{
+      text-align: left;
+      font-size: 0.8em;
+      margin-top: 2%;
+    }
+
+    }

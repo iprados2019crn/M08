@@ -30,7 +30,49 @@
 }
 
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+
+  .tecnicas{
+    background-image: url(../imagenes/tecnicas_web.jpg);
+    background-size: cover;
+  }
+  .errores{
+      background-image: url(../imagenes/error_web.jpg);
+      background-size: cover;
+  }
+  .objetivos{
+      background-image: url(../imagenes/_web.jpg);
+      background-size: cover;
+  }
+  .estudiar{
+      background-image: url(../imagenes/estudiar_web.jpg);
+      background-size: cover;
+  }
+  .consejos{
+    background-image: url(../imagenes/consejos_web.jpg);
+    background-size: cover;
+
+  }
+  .musica{
+    background-image: url(../imagenes/musica_web.jpg);
+    background-size: cover;
+
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
 
   .tecnicas{
     background-image: url(../imagenes/tecnicas_web.jpg);

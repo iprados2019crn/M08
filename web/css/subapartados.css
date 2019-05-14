@@ -73,7 +73,19 @@ hr{
 }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
   .central{
     height: auto;
     width: 80%;
@@ -136,3 +148,80 @@ hr{
     bottom: 30%;
   }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 740px){
+    .central{
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .central h1{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .central p{
+      margin: 0;
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    hr{
+      margin-top: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    #fotobjetivo{
+      height: 30%;
+      width: 40%;
+      position: absolute;
+      bottom: 20%;
+      left: 30%;
+      right: 10%;
+      background-color: red;
+    }
+
+    #uno{
+      background-image: url();
+    }
+
+    #dos{
+      background-image: url();
+    }
+
+    #tres{
+      background-image: url();
+    }
+
+    .fav{
+      height: 55%;
+      width: 5%;
+      background-image: url(../iconetes/favorite.png);
+      background-repeat: no-repeat;
+      background-size: 30%;
+      background-position: 70%;
+      position: absolute;
+      right: 10px;
+      top: 10%;
+      bottom: 30%;
+    }
+    }

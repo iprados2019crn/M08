@@ -103,7 +103,18 @@ padding: 15px;
 
 }
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
 
 html, body, .central{
   overflow-y: scroll;
@@ -155,6 +166,150 @@ header #atras{
     margin-left: 38%;
     margin-top: 3%;
     border: solid 1px black;
+    text-align: center;
+  }
+
+  input#miArchivo{
+    color: transparent;
+  }
+
+  #descripcion{
+  text-align: justify;
+  padding: 15px;
+  }
+
+  .arriba img{
+    height: auto;
+    width: 30%;
+    position: relative;
+    top: 5px;
+    left: 35%;
+    margin: 0 auto;
+  }
+
+  .drc{
+    height: 100%;
+    width: 50%;
+    float: right;
+  }
+
+  .txt{
+    float: left;
+    width: 25%;
+  }
+
+  .txt p{
+    margin-bottom: 1em;
+    text-align: left;
+    height: 20px;
+  }
+
+  .inp{
+    width: 75%;
+    float: right;
+  }
+
+  .inp input{
+    height: 17.2px;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    float: right;
+    margin-right: 0;
+    margin-bottom: 1em;
+    outline: none;
+  }
+
+  .abajo{
+      height: 48%;
+      width: 50%;
+      float: right;
+      margin-top: 0%;
+  }
+
+  .apartado{
+    height: 25%;
+    line-height: 2.5em;
+    font-size: 0.9em;
+    padding-left: 2%;
+  }
+
+  .legales{
+    font-size: 0.5em;
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
+
+html, body, .central{
+  overflow-y: scroll;
+}
+
+header #atras{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-position: 0 -2px;
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 2.5%;
+  margin-left: 2%;
+}
+
+  .central{
+    width: 96%;
+    height: 74%;
+    overflow-y: scroll;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .arriba{
+    height: 50%;
+    width: 100%;
+  }
+
+  .izq{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    float: left;
+  }
+  .izq p{
+    margin: 0;
+    padding: 0;
+  }
+
+  .izq input{
+    width: 22%;
+    font-size: 0.6em;
+    margin-left: 43%;
+    margin-right: 45%;
+    margin-top: 3%;
     text-align: center;
   }
 
