@@ -1,7 +1,4 @@
 @media only screen and (max-width: 480px)  and (orientation: portrait) {
-header{
-}
-
 header h2{
   height: 100%;
   width: auto;
@@ -48,4 +45,60 @@ button{
   font-size: 0.6em;
   text-align: center;
 }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+  header h2{
+    height: 100%;
+    width: auto;
+    background-image: url(../iconetes/atras.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0.8em;
+    line-height: 2.3em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 3%;
+    margin-left: 2%;
+  }
+
+
+  .central{
+    text-align: left;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  .central h5{
+  margin-bottom: 5%;
+  }
+
+  .central p{
+    text-align: left;
+    margin-bottom: 3%;
+  }
+
+  .central input{
+    width: 55%;
+    margin-bottom: 3%;
+  }
+
+  button{
+    margin: 0;
+    padding: 0;
+  }
+
+  .central #buscar{
+    width: 15%;
+    padding: 3px;
+    border: 1px solid;
+    font-size: 0.6em;
+    text-align: center;
+  }
+
 }

@@ -1,6 +1,4 @@
 @media only screen and (max-width: 480px)  and (orientation: portrait) {
-body{
-}
 
 .central{
   height: auto;
@@ -74,3 +72,67 @@ hr{
   bottom: 30%;
 }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+  .central{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .central h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .central p{
+    margin: 0;
+    text-align: left;
+  }
+
+  hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  #fotobjetivo{
+    height: 30%;
+    width: 40%;
+    position: absolute;
+    bottom: 17%;
+    left: 30%;
+    right: 10%;
+    background-color: red;
+  }
+
+  #uno{
+    background-image: url();
+  }
+
+  #dos{
+    background-image: url();
+  }
+
+  #tres{
+    background-image: url();
+  }
+
+  .fav{
+    height: 55%;
+    width: 5%;
+    background-image: url(../iconetes/favorite.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 70%;
+    position: absolute;
+    right: 10px;
+    top: 10%;
+    bottom: 30%;
+  }
+  }

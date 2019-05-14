@@ -70,3 +70,67 @@ footer{
 }
 
 }
+
+@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+  .central{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  h6{
+    font-size: 1em;
+    border-bottom: solid 1px black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+  }
+
+  .cerrar{
+    font-size: 0.6em;
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .abajo{
+    height: 15%;
+    width: 80%;
+    margin-left: 22.8%;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 13%;
+    left: 10%;
+    right: 10%;
+  }
+
+  .rrss{
+    height: 50px;
+    width: 50px;
+    background-image: url(../iconetes/rrss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 5px;
+  }
+
+  .facebook{
+  }
+
+  .google{
+    background-position: 0px -50px;
+  }
+
+  .twitter{
+    background-position: 0px -150px;
+  }
+
+  .insta{
+    background-position: 0px -100px;
+  }
+
+  }
