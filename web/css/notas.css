@@ -2,9 +2,10 @@
 textarea{
   height: 84%;
   width: 84%;
-  margin: 0 auto;
-  margin: 5%;
-  padding: 3%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   overflow-y: scroll;
   border: solid 2px rgb(255,153,51);
 }
@@ -37,10 +38,10 @@ textarea{
   textarea{
     height: 70%;
     width: 84%;
-    margin: 0 auto;
-    margin-left: 5%;
-    margin-top: 3%;
-    padding: 3%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
     border: solid 2px rgb(255,153,51);
   }
 
@@ -59,11 +60,10 @@ textarea{
   textarea{
     height: 80%;
     width: 960px;
-    margin: 0 auto;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 3%;
-    padding: 1%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
     border: solid 2px rgb(255,153,51);
     outline: none;
   }

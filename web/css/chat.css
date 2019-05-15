@@ -84,6 +84,22 @@ button{
     bottom: 15%;
     right: 5%;
   border: solid 1px black;
+  outline: none;
+}
+
+.contador{
+    padding: 5px;
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+  border: solid 1px black;
+  outline: none;
+}
+
+.contador:active{
+  opacity: 0.8;
+  box-shadow: 0px 0 5px;
 }
 }
 
@@ -186,7 +202,21 @@ button{
   bottom: 15%;
   right: 5%;
   border: solid 1px black;
-  z-index: 10000000;
+  outline: none;
+}
+.contador{
+  padding: 5px;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+  border: solid 1px black;
+  outline: none;
+}
+
+.contador:active{
+  opacity: 0.8;
+  box-shadow: 0px 0 5px;
 }
 }
 
@@ -205,6 +235,7 @@ html, body, .contenido{
 }
 
 h3{
+  width: 20%;
   margin: 0 auto;
   position: absolute;
   left: 0;
@@ -275,6 +306,36 @@ button{
   bottom: 10%;
   right: 5%;
   border: solid 1px black;
-  z-index: 100000;
+  outline: none;
 }
+
+.contador{
+    padding: 7px;
+    font-size: 0.8em;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    border: solid 1px black;
+    outline: none;
+}
+
+.contador:active{
+  opacity: 0.8;
+  box-shadow: 0px 0 5px;
+}
+
+header #atras{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 2%;
+}
+
 }

@@ -30,12 +30,12 @@ hr{
 #fotobjetivo{
   height: 25%;
   width: 80%;
-  position: absolute;
-  bottom: 28%;
-  left: 10%;
-  right: 10%;
-  background-color: red;
-  background-image: url();
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+  background-image: url(../imagenes/obj1.jpg);
+  background-size: cover;
 }
 
 #fotobjetivo2{
@@ -45,8 +45,8 @@ hr{
   bottom: 28%;
   left: 10%;
   right: 10%;
-  background-color: red;
-  background-image: url();
+  background-image: url(../imagenes/obj2.jpg);
+  background-size: cover;
 }
 
 #fotobjetivo3{
@@ -56,8 +56,8 @@ hr{
   bottom: 28%;
   left: 10%;
   right: 10%;
-  background-color: red;
-  background-image: url();
+  background-image: url(../imagenes/obj3.jpg);
+  background-size: cover;
 }
 
 .fav{
@@ -113,27 +113,40 @@ hr{
     width: 100%;
   }
 
+
   #fotobjetivo{
     height: 30%;
     width: 40%;
-    position: absolute;
-    bottom: 17%;
-    left: 30%;
-    right: 10%;
-    background-color: red;
+      position: absolute;
+      left: 50%;
+      top: 65%;
+      transform: translate(-50%, -50%);
+    background-image: url(../imagenes/obj1.jpg);
+    background-size: cover;
   }
 
-  #uno{
-    background-image: url();
-  }
+    #fotobjetivo2{
+      height: 30%;
+      width: 40%;
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: translate(-50%, -50%);
+      background-image: url(../imagenes/obj2.jpg);
+      background-size: cover;
+    }
 
-  #dos{
-    background-image: url();
-  }
 
-  #tres{
-    background-image: url();
-  }
+      #fotobjetivo3{
+        height: 30%;
+        width: 40%;
+          position: absolute;
+          left: 50%;
+          top: 65%;
+          transform: translate(-50%, -50%);
+        background-image: url(../imagenes/obj3.jpg);
+        background-size: cover;
+      }
 
   .fav{
     height: 55%;
@@ -193,24 +206,46 @@ hr{
     #fotobjetivo{
       height: 30%;
       width: 40%;
-      position: absolute;
-      bottom: 20%;
-      left: 30%;
-      right: 10%;
-      background-color: red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
-    #uno{
-      background-image: url();
+    #fotobjetivo{
+      height: 30%;
+      width: 40%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      background-image: url(../imagenes/obj1.jpg);
+      background-size: cover;
     }
 
-    #dos{
-      background-image: url();
+    #fotobjetivo2{
+      height: 30%;
+      width: 40%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      background-image: url(../imagenes/obj2.jpg);
+      background-size: cover;
     }
 
-    #tres{
-      background-image: url();
+
+    #fotobjetivo3{
+      height: 30%;
+      width: 40%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      background-image: url(../imagenes/obj3.jpg);
+      background-size: cover;
     }
+
 
     .fav{
       height: 55%;
@@ -224,4 +259,5 @@ hr{
       top: 10%;
       bottom: 30%;
     }
+
     }

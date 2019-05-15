@@ -270,13 +270,11 @@ header #atras{
   position: absolute;
   background-image: url(../iconetes/atras.png);
   background-size: cover;
-  background-position: 0 -2px;
   background-repeat: no-repeat;
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 2.5%;
   margin-left: 2%;
 }
 
@@ -302,6 +300,7 @@ header #atras{
   .izq p{
     margin: 0;
     padding: 0;
+    margin-top: 5px;
   }
 
   .izq input{
@@ -309,7 +308,7 @@ header #atras{
     font-size: 0.6em;
     margin-left: 43%;
     margin-right: 45%;
-    margin-top: 3%;
+    margin-top: 5%;
     text-align: center;
   }
 
@@ -319,14 +318,15 @@ header #atras{
 
   #descripcion{
   text-align: justify;
-  padding: 15px;
+  padding: 20px;
+  padding-top: 8px;
   }
 
   .arriba img{
     height: auto;
     width: 30%;
     position: relative;
-    top: 5px;
+    top: 20px;
     left: 35%;
     margin: 0 auto;
   }
@@ -335,6 +335,7 @@ header #atras{
     height: 100%;
     width: 50%;
     float: right;
+    padding-top: 3%;
   }
 
   .txt{
@@ -343,7 +344,7 @@ header #atras{
   }
 
   .txt p{
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     text-align: left;
     height: 20px;
   }
@@ -360,19 +361,20 @@ header #atras{
     width: 80%;
     float: right;
     margin-right: 0;
-    margin-bottom: 1em;
+    margin-bottom: 2.7em;
     outline: none;
   }
 
   .abajo{
-      height: 48%;
-      width: 50%;
-      float: right;
-      margin-top: 0%;
+    height: 48%;
+    width: 100%;
+    float: right;
+    margin-top: 3%;
   }
 
   .apartado{
-    height: 25%;
+    height: auto;
+    padding: 15px 0;
     line-height: 2.5em;
     font-size: 0.9em;
     padding-left: 2%;
@@ -385,7 +387,7 @@ header #atras{
     padding: 5px;
     position: absolute;
     bottom: 15px;
-    left: 0px;
+    right: 0px;
     border: 1px solid rgb(0, 0, 0);
   }
 
