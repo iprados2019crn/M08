@@ -178,7 +178,7 @@ footer{
 
   @media only screen and (min-width: 740px){
 
-    header #atras{
+    header h2{
       height: 100%;
       width: auto;
       position: absolute;
@@ -215,12 +215,13 @@ footer{
       bottom: 0;
       right: 0px;
       border: 1px solid rgb(0, 0, 0);
+      outline: none;
     }
 
     .abajo{
     position: absolute;
       height: 15%;
-      width: 80%;
+      width: auto;
       margin-left: 29.8%;
       margin-right: 10%;
       bottom: 0%;
