@@ -643,13 +643,16 @@
 
 
 @media only screen and (max-width: 480px)  and (orientation: portrait) {
+
   .calendario{
+    position: absolute;
     overflow-y: scroll;
     overflow-x: hidden;
-    padding-top: 9%;
-    height: 60%;
-    width: 92%;
+    margin-top: 30px;
+    height: 80%;
+    width: 80%;
   }
+
 }
 
 
@@ -662,16 +665,19 @@
     height: 73%;
     width: 94%;
   }
+
 }
 
 
 
 @media only screen and (min-width: 740px){
   .calendario{
-    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     overflow-y: scroll;
     overflow-x: hidden;
-    padding-top: 5%;
     height: 80%;
     width: 50%;
   }
