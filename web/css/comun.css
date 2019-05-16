@@ -159,9 +159,8 @@ header #atras{
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 3%;
+  padding-top: 4%;
   margin-left: 2%;
-  z-index: 10000;
 }
 
 .iconetes{
@@ -328,7 +327,7 @@ header #atras{
   text-align: center;
   margin: 0;
   padding: 0;
-  padding-top: 3%;
+  padding-top: 3.1%;
   margin-left: 2%;
 }
 
@@ -495,10 +494,12 @@ header #atras{
   background-image: url(../iconetes/atras.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 0 -7px;
   font-size: 1em;
   text-align: center;
   margin: 0;
   padding: 0;
+  padding-top: 3px;
   margin-left: 2%;
 }
 
