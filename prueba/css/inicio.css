@@ -1,0 +1,122 @@
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+  .tecnicas{
+    background-image: url(../imagenes/tecnicas.jpg);
+    background-position: 0px -50px;
+    background-size: cover;
+  }
+  .errores{
+      background-image: url(../imagenes/error.jpg);
+      background-position: 0px -100px;
+      background-size: cover;
+  }
+  .objetivos{
+      background-image: url(../imagenes/objetivos.jpg);
+      background-position: 0px -60px;
+      background-size: cover;
+  }
+  .estudiar{
+      background-image: url(../imagenes/estudiar.jpg);
+      background-position: 0px -50px;
+      background-size: cover;
+  }
+  .consejos{
+    background-image: url(../imagenes/consejos.jpg);
+    background-position: 0px -40px;
+    background-size: cover;
+
+  }
+  .musica{
+    background-image: url(../imagenes/musica.jpg);
+    background-position: 0px -100px;
+    background-size: cover;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+
+  .tecnicas{
+    background-image: url(../imagenes/tecnicas_web.jpg);
+    background-position: 0px -50px;
+    background-size: cover;
+  }
+  .errores{
+      background-image: url(../imagenes/error_web.jpg);
+      background-position: 0px -100px;
+      background-size: cover;
+  }
+  .objetivos{
+      background-image: url(../imagenes/objetivos_web.jpg);
+      background-position: 0px -50px;
+      background-size: cover;
+  }
+  .estudiar{
+      background-image: url(../imagenes/estudiar_web.jpg);
+      background-position: 0px -50px;
+      background-size: cover;
+  }
+  .consejos{
+    background-image: url(../imagenes/consejos_web.jpg);
+    background-position: 0px -30px;
+    background-size: cover;
+
+  }
+  .musica{
+    background-image: url(../imagenes/musica_web.jpg);
+    background-position: 0px -70px;
+    background-size: cover;
+
+  }
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
+
+  .tecnicas{
+    background-image: url(../imagenes/tecnicas_web.jpg);
+    background-position: 0px -50px;
+    background-size: cover;
+  }
+  .errores{
+      background-image: url(../imagenes/error_web.jpg);
+      background-position: 0px -180px;
+      background-size: cover;
+  }
+  .objetivos{
+      background-image: url(../imagenes/objetivos_web.jpg);
+      background-position: 0px -180px;
+      background-size: cover;
+  }
+  .estudiar{
+      background-image: url(../imagenes/estudiar_web.jpg);
+      background-position: 0px -130px;
+      background-size: cover;
+  }
+  .consejos{
+    background-image: url(../imagenes/consejos_web.jpg);
+    background-position: 0px -50px;
+    background-size: cover;
+
+  }
+  .musica{
+    background-image: url(../imagenes/musica_web.jpg);
+    background-position: 0px -130px;
+    background-size: cover;
+
+  }
+
+}

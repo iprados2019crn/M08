@@ -1,0 +1,503 @@
+@media only screen and (max-width: 480px)  and (orientation: portrait) {
+*{
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+body{
+  background-color: rgba(255,153,51,0.3);
+
+}
+
+p{
+font-size: 0.7em;
+text-align: center;
+margin-top: 3px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+  outline: none;
+  outline-style: none;
+}
+a:hover{
+}
+
+h5{
+font-size: 1em;
+text-align: center;
+}
+
+header{
+  height: 7%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  top: 0;
+}
+
+header h2{
+  font-size: 1em;
+  line-height: 3.5em;
+  padding-left: 3%;
+  float: left;
+}
+
+header p{
+  font-size: 0.8em;
+  line-height: 3.8em;
+  padding-right: 3%;
+  float: right;
+}
+
+hr{
+    border: 1px solid rgba(255,153,51, 0.8);
+    border-radius: 1px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+.central{
+position: absolute;
+top: 9%;
+height: 80%;
+width: 100%;
+}
+.central a {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.central a:active, .central a:focus {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+
+
+footer{
+  height: 8%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  bottom: 0;
+}
+
+.apartado{
+  height: 15%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border-top: solid 1px rgb(255,153,51);
+  border-bottom: solid 1px rgb(255,153,51);
+}
+
+.apartado h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 5.3em;
+  padding-left: 5px;
+}
+
+.lista{
+  height: 100%;
+  width: 24.7%;
+  float: left;
+  text-align: center;
+}
+.lista p{
+  font-size: 0.7em;
+  margin-top: -0.8px;
+}
+
+header #atras{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 4%;
+  margin-left: 2%;
+}
+
+.iconetes{
+  height: 70%;
+  margin-top: 8%;
+  margin-bottom: 15%;
+  margin-left: 3px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+*{
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: rgba(255,153,51,0.3);
+
+}
+
+p{
+font-size: 0.7em;
+text-align: center;
+margin-top: 3px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+}
+
+h5{
+font-size: 1em;
+text-align: center;
+}
+
+header{
+  height: 11%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  top: 0;
+}
+
+header h2{
+  font-size: 0.9em;
+  line-height: 3.5em;
+  padding-left: 3%;
+  float: left;
+}
+
+#atras{
+  line-height: 2.3em;
+}
+
+header p{
+  font-size: 0.7em;
+  line-height: 3.8em;
+  padding-right: 3%;
+  float: right;
+}
+
+hr{
+  border: 1px solid #222;
+  border-radius: 2px;
+  width: 50%;
+  margin: 15px auto;
+  color: black;
+  background-color: black;
+}
+
+.central{
+position: absolute;
+top: 12%;
+height: 74%;
+width: 100%;
+overflow-y: scroll;
+}
+
+.apartado{
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  margin-bottom: 1%;
+  border: solid 1px rgb(255,153,51);
+  border-radius: 10px;
+}
+
+.apartado h1{
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  padding: 15px 0;
+  padding-left: 5px;
+}
+
+.lista{
+  height: 100%;
+  width: 24.7%;
+  float: left;
+  text-align: center;
+}
+.lista p{
+  font-size: 0.7em;
+  margin-top: -0.8px;
+}
+
+header #atras{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 3.1%;
+  margin-left: 2%;
+}
+
+footer{
+    height: 13%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0;
+}
+
+.iconetes{
+  height: 65%;
+  margin-top: 4%;
+  margin-bottom: 15%;
+  margin-left: 3px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
+*{
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Helvetica;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: rgba(255,153,51,0.3);
+
+}
+
+p{
+font-size: 1em;
+text-align: center;
+margin-top: 3px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:active{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+    outline: none;
+    outline-style: none;
+}
+a:hover{
+}
+
+h5{
+font-size: 1em;
+text-align: center;
+}
+
+header{
+  height: 7%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  top: 0;
+}
+
+header h2{
+  font-size: 1em;
+  line-height: 4em;
+  padding-left: 3%;
+  float: left;
+}
+
+header p{
+  font-size: 0.8em;
+  line-height: 4em;
+  padding-right: 3%;
+  float: right;
+}
+
+hr{
+  border: 1px solid #222;
+  border-radius: 2px;
+  width: 50%;
+  margin: 40px auto;
+  color: black;
+  background-color: black;
+}
+
+.central{
+position: absolute;
+top: 8%;
+height: 84%;
+width: 100%;
+overflow-y: scroll;
+}
+
+.apartado{
+  width: 92%;
+  margin: 0 auto;
+  margin-bottom: 1%;
+  border: solid 1px rgb(255,153,51);
+  border-radius: 10px;
+}
+
+.apartado h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  padding: 30px 0;
+  padding-left: 10px;
+}
+
+.lista{
+  height: 100%;
+  width: 24.7%;
+  float: left;
+  text-align: center;
+}
+.lista p{
+  font-size: 0.7em;
+  margin-top: -0.8px;
+}
+
+
+footer{
+    height: 7%;
+    width: 100%;
+    background-color: rgb(255,153,51);
+    position: absolute;
+    bottom: 0;
+}
+
+.iconetes{
+  height: 65%;
+  margin-top: 8px;
+  margin-bottom: 14%;
+  margin-left: 3px;
+}
+}

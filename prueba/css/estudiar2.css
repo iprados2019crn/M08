@@ -1,0 +1,192 @@
+@media only screen and (max-width: 480px)  and (orientation: portrait) {
+
+.central{
+  position: absolute;
+  top: 8%;
+  height: 83%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.apartado{
+  height: auto;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 1.5%;
+  margin-bottom: 20px;
+  background-color: rgba(255,153,51,0.3);
+  border: solid 2px rgb(255,153,51);
+  border-radius: 10px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+
+h3{
+  margin: 0;
+  margin-left: 7px;
+  padding: 0;
+  padding-top: 10px;
+  font-size: 0.8em;
+  height: 10%;
+  width: 100%;
+  position: relative;
+}
+
+.dentro{
+  height: 100;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+
+.dentro p{
+  text-align: left;
+  font-size: 0.8em;
+}
+
+ul{
+  padding-top: 4px;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+
+  .central{
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  .apartado{
+    height: auto;
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    background-color: rgba(255,153,51,0.3);
+    border: solid 2px rgb(255,153,51);
+    border-radius: 10px;
+    padding-top: 0;
+  }
+
+  h3{
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 0.9em;
+    height: 10%;
+    width: 100%;
+    position: relative;
+  }
+
+  .dentro{
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+
+  .dentro p{
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: 2%;
+    margin-bottom: 10px;
+  }
+
+  ul{
+    padding-top: 4px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+
+  li{
+    margin-bottom: 5px;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (min-width: 740px){
+
+    .central{
+      position: absolute;
+      width: 100%;
+      overflow-y: scroll;
+    }
+
+    .apartado{
+      height: auto;
+      width: 92%;
+      margin: 0 auto;
+      margin-top: 1.5%;
+      margin-bottom: 1%;
+      background-color: rgba(255,153,51,0.3);
+      border: solid 2px rgb(255,153,51);
+      border-radius: 10px;
+      padding-top: 0;
+    }
+
+    h3{
+      margin: 0;
+      margin-left: 10px;
+      padding: 0;
+      padding-top: 10px;
+      font-size: 1em;
+      height: 10%;
+      width: 100%;
+      position: relative;
+    }
+
+    .dentro{
+      height: auto;
+      width: 90%;
+      margin: 0 auto;
+      text-align: left;
+      position: relative;
+    }
+
+    .dentro p{
+      text-align: left;
+      font-size: 0.8em;
+      margin-top: 7px;
+      margin-bottom: 15px;
+    }
+
+    ul{
+      padding-top: 4px;
+      font-size: 0.8em;
+      line-height: 1.3em;
+    }
+
+    li{
+      margin-bottom: 5px;
+    }
+
+    }
