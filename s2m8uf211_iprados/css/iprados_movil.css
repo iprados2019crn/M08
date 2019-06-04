@@ -1,0 +1,353 @@
+@media only screen and (max-width: 639px) {
+
+
+  html{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    overflow-y: auto;
+    font-family: helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(to top left, rgb(10, 10, 10), #1E261F);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body{
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+  }
+
+  header{
+    height: 70px;
+    width: 100%;
+    background-color: #1E261F;
+    border-bottom: 1px solid rgb(20, 20, 20);
+  }
+
+  h1, h5{
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+
+  h5{
+    height: 100px;
+  }
+
+  h1{
+    line-height: 75px;
+    font-size: 1em;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:active{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    color: black;
+    text-decoration: none;
+  }
+  a:visited{
+    color: black;
+    text-decoration: none;
+  }
+
+  #usuario{
+    height: 70px;
+    width: 25%;
+    float: left;
+    font-size: 0.7em;
+    text-align: center;
+    border-right: 2px solid rgb(20, 20, 20);
+  }
+
+  #usuario img{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    background-size: cover;
+  }
+
+  #lista{
+    height: 100%;
+    width: 74%;
+    text-align: center;
+    float: right;
+  }
+
+  #general{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  #lateral{
+    height: 5%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-top: 1px solid rgb(20, 20, 20);
+    z-index: 1000;
+    position: fixed !important;
+    bottom: 0 !important;
+  }
+
+  .elemento{
+    height: auto;
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    background-color: rgba(30,38, 31, 1);
+    margin-bottom: 5px;
+  }
+
+  #drc{
+    height: 100%;
+    width: 100%;
+    float: right;
+    overflow-y: scroll;
+  }
+
+  .canciones{
+    width: 52%;
+    height: 200px;
+    position: relative;
+    left: 24%;
+    right: 24%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .canciones .img{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .canciones .nombre{
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .canciones .img:hover{
+    opacity: 0.6;
+  }
+
+  .ultima{
+    margin-bottom: 90px;
+  }
+
+  .canciones .uno{
+    background-image: url(../img/killer.jpg);
+  }
+
+  .canciones .dos{
+    background-image: url(../img/fuego.jpg);
+  }
+
+  .canciones .tres{
+    background-image: url(../img/necesario.jpg);
+  }
+
+  .canciones .cuatro{
+    background-image: url(../img/distancia.jpg);
+  }
+
+  .canciones .cinco{
+    background-image: url(../img/believer.jpg);
+  }
+
+  .canciones .seis{
+    background-image: url(../img/wake.png);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* --------------- Tiradors ----------------- */
+
+  input[type=range] {
+    -webkit-appearance: none; /* Amaga el tirador per fer la màgia */
+    width: 100%; /* Firefox necessita una amplada específica */
+    background: transparent;  /* Amaga el tirador per fer la màgia */
+    background: rgba(255,255,255, 0.2);
+    margin: 0.0px 0;
+    border-radius: 10px;
+    margin: 5px auto;
+  }
+  input[type=range]:focus {
+    outline: none; /* Per no veure el contorn */
+  }
+
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    background: #4c4d4d;
+    border-radius: 10px;
+    border: 0px solid #010101;
+  }
+
+  /* Controlador */
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255, 0.3);
+    cursor: pointer;
+    position: relative;
+    margin-top: -0.0px;
+
+    box-shadow: 0px 0px 1px #670000, 0px 0px 0px #8100000;
+    border: 0px solid #ff1e00;
+  }
+
+
+  /* --------------- Botons ----------------- */
+
+  #playpause {
+    position:relative;
+    border:none;
+    text-decoration:none;
+    width: 50px;
+    height: 50px;
+    background: #4c4d4d;
+    border-radius: 50px;
+  }
+
+  #playpause:focus {
+    outline: none; /* Per no veure el contorn */
+  }
+  #playpause:before, #playpause:after, #playpause:focus:before, #playpause:focus:after {
+    position: absolute;
+    content: " ";
+    z-index: 10000;
+  }
+  #playpause:before, #playpause:after {
+    height: 15px;
+    width: 7px;
+    left: 28px;
+    top: 18px;
+    display: block;
+    background: white;
+  }
+
+  #playpause:after {
+   left: 15px;
+  }
+
+  #playpause:focus:before {
+    top: 15px;
+    left: 18px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid white;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    display: block;
+    background: transparent;
+  }
+
+  #playpause:focus:after {
+   visibility:hidden;
+  }
+
+  .botons{
+    width: 110px;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+  }
+
+  #cosomusica{
+    position: relative;
+    top: 210px;
+  }
+
+  .bck, .fwd{
+    border: solid 1px #4c4d4d;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .reproductor{
+    height: 350px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 4px;
+    border-radius: 10px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center 5px;
+    margin-bottom: 200px;
+  }
+
+  .a{
+    background-image: url(../img/killerb.jpg);
+  }
+
+  .b{
+    background-image: url(../img/fuegob.jpg);
+  }
+
+  .c{
+    background-image: url(../img/necesariob.jpg);
+  }
+
+  .d{
+    background-image: url(../img/distanciab.jpg);
+  }
+
+  .e{
+    background-image: url(../img/believerb.jpg);
+  }
+
+  .f{
+    background-image: url(../img/wakeb.jpg);
+  }
+
+}

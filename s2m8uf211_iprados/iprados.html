@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" manifest="cache.manifest">
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="icon" sizes="512x512" href="img/icon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="img/icon.png">
+  <link rel="stylesheet" type="text/css" href="css/iprados.css">
+  <link rel="stylesheet" type="text/css" href="css/iprados_movil.css">
+  <link rel="stylesheet" type="text/css" href="css/barra.css">
+  <title>MusicPlayer</title>
+</head>
+<body>
+
+<header>
+  <div id="usuario">
+  <img src="img/user.png"></img>
+  </br>
+    @Usuario
+  </div>
+  <div id="lista"><h1>Lista Random</h1></div>
+</header>
+<div id="general">
+  <div id="lateral">
+    <a href="iprados.html"><div class="elemento"><h5>PLAYLIST</h5></div></a>
+    <a href="iprados.html"><div class="elemento"><h5>TRACK</h5></div></a>
+    <a href="iprados.html"><div class="elemento"><h5>ALBUM</h5></div></a>
+    <a href="iprados.html"><div class="elemento fav"><h5>FAVORITS</h5></div></a>
+  </div>
+  <div id="drc">
+
+<a href="html/cancion1.html"><div class="canciones">
+<div class="img uno"></div>
+<p class="nombre">KILLER QUEEN</p>
+</div>
+</a>
+
+<a href="html/cancion2.html"><div class="canciones">
+<div class="img dos"></div>
+<p class="nombre">FUEGO</p>
+</div>
+</a>
+
+<a href="html/cancion3.html"><div class="canciones">
+<div class="img tres"></div>
+<p class="nombre">ERA NECESARIO</p>
+</div>
+</a>
+
+<a href="html/cancion4.html"><div class="canciones">
+<div class="img cuatro"></div>
+<p class="nombre">DISTANCIA</p>
+</div>
+</a>
+
+<a href="html/cancion5.html"><div class="canciones">
+<div class="img cinco"></div>
+<p class="nombre">BELIEVER</p>
+</div>
+</a>
+
+<a href="html/cancion6.html"><div class="canciones ultima">
+<div class="img seis"></div>
+<p class="nombre">WAKE ME UP</p>
+</div>
+</a>
+
+
+</div>
+
+
+
+<script>
+var reproduint, playpause, barra;
+var vesa, noutemps;
+
+function inicialitzaReproductor() {
+reproduint = document.getElementById("reproduint");
+playpause = document.getElementById("playpause");
+barra = document.getElementById("barra");
+
+playpause.addEventListener("click", playPause, false);
+barra.addEventListener("change", posicioAudio, false);
+reproduint.addEventListener("timeupdate", actualitzaTemps, false);
+
+playpause.focus();
+}
+
+window.onload = inicialitzaReproductor;
+
+function playPause() {
+if(reproduint.paused) {
+  reproduint.play();
+  playpause.blur();
+}
+else {
+  reproduint.pause();
+  playpause.focus();
+}
+}
+
+
+function posicioAudio() {
+var vesa = parseInt(reproduint.duration * (barra.value / 10000));
+reproduint.currentTime = vesa;
+console.log(reproduint.currentTime);
+}
+
+
+function actualitzaTemps() {
+var noutemps = parseInt(reproduint.currentTime * (10000 / reproduint.duration));
+barra.value = noutemps;
+console.log(barra.value);
+}
+</script>
+
+</body>
+</html>
