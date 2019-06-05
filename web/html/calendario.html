@@ -13,6 +13,7 @@
   <link rel="apple-touch-icon" sizes="192x192" href="img/icon.png">
   <link rel="stylesheet" type="text/css" href="../css/comun.css">
   <link rel="stylesheet" href="../css/barra_vertical.css">
+  <link rel="stylesheet" href="../css/calendario.css">
 
   <title>A+ Study</title>
 
@@ -637,65 +638,6 @@
         }
 
 
-
-
-
-
-
-@media only screen and (max-width: 480px)  and (orientation: portrait) {
-
-  .calendario{
-    position: absolute;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    margin-top: 40px;
-    height: 80%;
-    width: 80%;
-    left: 10%;
-    right: 10%;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
-
-html, body{
-  height: 90%;
-  width: 90%;
-}
-
-  .calendario{
-    overflow-y: scroll;
-    overflow-x: hidden;
-    margin-top: 5%;
-    height: 91.5%;
-    width: 94%;
-    margin-left: 10%;
-  }
-
-}
-
-
-
-@media only screen and (min-width: 740px){
-  .calendario{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 80%;
-    width: 50%;
-  }
-
-  #apartado{
-    margin-top: 2%;
-  }
-}
-
 </style>
 
     <script src="../js/calendario/prefixfree.min.js"></script>
@@ -705,7 +647,7 @@ html, body{
 <body>
 
   <header>
-    <a href="inicio.html"><h2 id="atras">Enrere</h2></a>
+    <a href="inicio.html"><div class="atras"></div></a>
     <p>@usuari</p>
   </header>
 
@@ -716,11 +658,23 @@ html, body{
 
   <script src='../js/calendario/jquery.min.js'></script>
   <script src='../js/calendario/fullcalendar.min.js'></script>
-  <script  src="../js/calendario/calendario.js"></script>
+  <script src="../js/calendario/calendario.js"></script>
 
 
-<a href="objetivos.html">  <div id="apartado">
-    <h3>Objectius</h3>
+  <a href="objetivos.html">  <div class="obj">
+      <h3>Objectius</h3>
+    </div></a>
+
+  <a href="subapartados/objetivos_curso.html">  <div class="obj">
+    <h3>Objectius en curs</h3>
+  </div></a>
+
+  <a href="subapartados/favoritos.html">  <div class="obj">
+    <h3>Favorits</h3>
+  </div></a>
+
+  <a href="subapartados/objetivos_conseguido.html">  <div class="obj">
+    <h3>Aconseguits</h3>
   </div></a>
 </div>
 
