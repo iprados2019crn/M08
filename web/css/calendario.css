@@ -1,0 +1,88 @@
+@media only screen and (max-width: 480px)  and (orientation: portrait) {
+
+  .calendario{
+    position: absolute;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 40px;
+    height: 85%;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+  }
+
+  .obj{
+    font-size: 0.7em;
+    height: 25px;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+
+html, body{
+  height: 90%;
+  width: 90%;
+}
+
+  .calendario{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 5%;
+    height: 91.5%;
+    width: 85%;
+    margin-left: 15%;
+  }
+
+
+  .obj{
+    font-size: 0.9em;
+    height: 25px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 740px){
+  .calendario{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80%;
+    width: 50%;
+  }
+
+
+  .obj{
+    font-size: 0.9em;
+    height: 25px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 25px;
+  }
+}

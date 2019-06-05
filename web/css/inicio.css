@@ -1,36 +1,39 @@
 @media only screen and (max-width: 480px) and (orientation: portrait) {
 
+  body{
+    background-color: white;
+  }
+
+  .apartado{
+    margin-bottom: 5%;
+  }
+
   .tecnicas{
-    background-image: url(../imagenes/tecnicas.jpg);
-    background-position: 0px -50px;
-    background-size: cover;
+    background-color: rgba(255,153,51,0.3);
   }
+
   .errores{
-      background-image: url(../imagenes/error.jpg);
-      background-position: 0px -100px;
-      background-size: cover;
+    background-color: rgba(255,153,51,0.3);
   }
+
   .objetivos{
-      background-image: url(../imagenes/objetivos.jpg);
-      background-position: 0px -60px;
-      background-size: cover;
+    background-color: rgba(255,153,51,0.3);
   }
+
   .estudiar{
-      background-image: url(../imagenes/estudiar.jpg);
-      background-position: 0px -50px;
-      background-size: cover;
+    background-color: rgba(255,153,51,0.3);
   }
+
   .consejos{
-    background-image: url(../imagenes/consejos.jpg);
-    background-position: 0px -40px;
-    background-size: cover;
-
+    background-color: rgba(255,153,51,0.3);
   }
-  .musica{
-    background-image: url(../imagenes/musica.jpg);
-    background-position: 0px -100px;
-    background-size: cover;
 
+  .musica{
+    background-color: rgba(255,153,51,0.3);
+  }
+
+  .otros{
+    background-color: rgba(255,153,51,0.3);
   }
 
 }

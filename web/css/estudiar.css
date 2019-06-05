@@ -10,23 +10,21 @@
 
 .apartado{
   height: auto;
-  width: 92%;
+  width: 87%;
   margin: 0 auto;
   margin-top: 1.5%;
   margin-bottom: 1%;
-  background-color: rgba(255,153,51,0.3);
-  border: solid 2px rgb(255,153,51);
-  border-radius: 10px;
-  padding-top: 0;
-  padding-bottom: 10px;
+  border: none;
 }
+
+
 
 h3{
   margin: 0;
-  margin-left: 7px;
   padding: 0;
-  padding-top: 10px;
-  font-size: 0.8em;
+  font-size: 0.9em;
+  text-align: center;
+  margin-bottom: 5px;
   height: 10%;
   width: 100%;
   position: relative;
@@ -43,6 +41,7 @@ h3{
 .dentro p{
   text-align: left;
   font-size: 0.8em;
+  text-align: justify;
 }
 
 ul{
@@ -53,6 +52,32 @@ ul{
 
 li{
   margin-bottom: 5px;
+}
+
+
+
+.atras{
+position: absolute;
+  height: 100%;
+  width: 50px;
+  background-image: url(../iconetes/atras.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  left: 0;
+  margin-left: 5px;
+}
+
+.logo{
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  background-image: url(../iconetes/logob.png);
+  background-size: contain;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  right: 0;
+  margin-right: 5px;
+  margin-top: 1.5%;
 }
 
 }

@@ -24,26 +24,26 @@ margin-top: 3px;
 a{
   color: black;
   text-decoration: none;
-    outline: none;
-    outline-style: none;
+  outline: none;
+  outline-style: none;
 }
 a:active{
   color: black;
   text-decoration: none;
-    outline: none;
-    outline-style: none;
+  outline: none;
+  outline-style: none;
 }
 a:hover{
   color: black;
   text-decoration: none;
-    outline: none;
-    outline-style: none;
+  outline: none;
+  outline-style: none;
 }
 a:visited{
   color: black;
   text-decoration: none;
-    outline: none;
-    outline-style: none;
+  outline: none;
+  outline-style: none;
 }
 a:hover{
 }
@@ -76,12 +76,10 @@ header p{
 }
 
 hr{
-  border: 1px solid #222;
-  border-radius: 2px;
-  width: 80%;
-  margin: 20px auto;
-  color: black;
-  background-color: black;
+    border: 1px solid rgba(255,153,51, 0.8);
+    border-radius: 1px;
+    width: 90%;
+    margin: 25px auto;
 }
 
 .central{
@@ -89,7 +87,9 @@ position: absolute;
 top: 9%;
 height: 80%;
 width: 100%;
+overflow-y: scroll;
 }
+
 .central a {
   -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -112,29 +112,29 @@ width: 100%;
 
 
 footer{
-    height: 8%;
-    width: 100%;
-    background-color: rgb(255,153,51);
-    position: absolute;
-    bottom: 0;
+  height: 8%;
+  width: 100%;
+  background-color: rgb(255,153,51);
+  position: absolute;
+  bottom: 0;
 }
 
 .apartado{
-  height: 15%;
-  width: 92%;
+  height: 85px;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 1.5%;
-  margin-bottom: 1%;
-  border: solid 1px rgb(255,153,51);
-  border-radius: 10px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-top: solid 1px rgb(255,153,51);
+  border-bottom: solid 1px rgb(255,153,51);
 }
 
 .apartado h1{
   margin: 0;
   padding: 0;
   font-size: 1em;
-  line-height: 5.3em;
-  padding-left: 5px;
+  line-height: 90px;
+  padding-left: 20px;
 }
 
 .lista{
@@ -148,19 +148,15 @@ footer{
   margin-top: -0.8px;
 }
 
-header #atras{
+.atras{
+position: absolute;
   height: 100%;
-  width: auto;
-  position: absolute;
+  width: 50px;
   background-image: url(../iconetes/atras.png);
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 4%;
-  margin-left: 2%;
+  left: 0;
+  margin-left: 5px;
 }
 
 .iconetes{
@@ -260,10 +256,6 @@ header h2{
   float: left;
 }
 
-#atras{
-  line-height: 2.3em;
-}
-
 header p{
   font-size: 0.7em;
   line-height: 3.8em;
@@ -289,12 +281,12 @@ overflow-y: scroll;
 }
 
 .apartado{
-  width: 92%;
+  height: 60px;
+  width: 100%;
   margin: 0 auto;
-  margin-top: 1.5%;
   margin-bottom: 1%;
-  border: solid 1px rgb(255,153,51);
-  border-radius: 10px;
+  border-top: solid 1px rgb(255,153,51);
+  border-bottom: solid 1px rgb(255,153,51);
 }
 
 .apartado h1{
@@ -302,7 +294,8 @@ overflow-y: scroll;
   padding: 0;
   font-size: 0.9em;
   padding: 15px 0;
-  padding-left: 5px;
+  padding-left: 15px;
+  line-height: 30px;
 }
 
 .lista{
@@ -316,19 +309,18 @@ overflow-y: scroll;
   margin-top: -0.8px;
 }
 
-header #atras{
+
+
+.atras{
+position: absolute;
   height: 100%;
-  width: auto;
-  position: absolute;
+  width: 50px;
   background-image: url(../iconetes/atras.png);
   background-size: cover;
+  background-size: 80%;
   background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 3.1%;
-  margin-left: 2%;
+  left: 0;
+  margin-left: 5px;
 }
 
 footer{
@@ -340,8 +332,8 @@ footer{
 }
 
 .iconetes{
-  height: 65%;
-  margin-top: 4%;
+  height: 75%;
+  margin-top: 3%;
   margin-bottom: 15%;
   margin-left: 3px;
 }
@@ -461,19 +453,21 @@ overflow-y: scroll;
 }
 
 .apartado{
-  width: 92%;
+  height: 110px;
+  width: 100%;
   margin: 0 auto;
   margin-bottom: 1%;
-  border: solid 1px rgb(255,153,51);
-  border-radius: 10px;
+  border-top: solid 1px rgb(255,153,51);
+  border-bottom: solid 1px rgb(255,153,51);
 }
 
 .apartado h1{
   margin: 0;
   padding: 0;
-  font-size: 1em;
+  font-size: 0.9em;
   padding: 30px 0;
-  padding-left: 10px;
+  padding-left: 15px;
+  line-height: 55px;
 }
 
 .lista{
@@ -487,25 +481,17 @@ overflow-y: scroll;
   margin-top: -0.8px;
 }
 
-header #atras{
+.atras{
+position: absolute;
   height: 100%;
-  width: auto;
-  position: absolute;
+  width: 50px;
   background-image: url(../iconetes/atras.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0 -7px;
-  font-size: 1em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 3px;
-  margin-left: 2%;
+  left: 0;
+  margin-left: 5px;
 }
 
-#atras{
-  line-height: 80px;
-}
 
 footer{
     height: 7%;
@@ -516,7 +502,7 @@ footer{
 }
 
 .iconetes{
-  height: 65%;
+  height: 75%;
   margin-top: 8px;
   margin-bottom: 14%;
   margin-left: 3px;

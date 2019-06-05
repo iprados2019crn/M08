@@ -1,14 +1,43 @@
 @media only screen and (max-width: 480px) and (orientation: portrait)  {
 textarea{
-  height: 84%;
-  width: 84%;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   overflow-y: scroll;
   border: solid 2px rgb(255,153,51);
+  margin-top: -30px;
+  outline: none;
+  resize: none;
+  padding: 10px;
 }
+
+.guardar{
+  font-size: 0.6em;
+  text-align: right;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  outline: none;
+}
+
+.nuevo{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  height: auto;
+  width: auto;
+  font-size: 0.3em;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 }
 
 
@@ -18,31 +47,45 @@ textarea{
 
 @media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
 
-  header #atras{
-    height: 100%;
-    width: auto;
-    position: absolute;
-    background-image: url(../iconetes/atras.png);
-    background-size: cover;
-    background-position: 0 -2px;
-    background-repeat: no-repeat;
-    font-size: 0.8em;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    padding-top: 2.5%;
-    margin-left: 2%;
-  }
 
 
   textarea{
     height: 70%;
     width: 84%;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border: solid 2px rgb(255,153,51);
+    margin-top: -30px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    margin-top: -20px;
+  }
+
+  .guardar{
+    font-size: 0.7em;
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    outline: none;
+  }
+
+  .nuevo{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    height: auto;
+    width: auto;
+    font-size: 0.3em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
   }
 
 }
@@ -59,12 +102,29 @@ textarea{
 
   textarea{
     height: 80%;
-    width:50%;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border: solid 2px rgb(255,153,51);
+    outline: none;
+    resize: none;
+    padding: 10px;
+    margin-top: -50px;
+  }
+
+
+
+  .guardar{
+    font-size: 0.9em;
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    border: 1px solid rgb(0, 0, 0);
     outline: none;
   }
 
