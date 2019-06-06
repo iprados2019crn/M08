@@ -1,161 +1,17 @@
-@media only screen and (max-width: 480px)  and (orientation: portrait) {
-
-  .foto{
-  height: 200px;
-  width: 200px;
-  background-image: url(../iconetes/logo_study.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  }
-  .a{
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-top: 75px;
-  margin-bottom: 20px;
-  }
-
-input{
-  outline: none;
-  margin: 0 auto;
-  padding-left: 25px;
-  margin-bottom: 5px;
-  width: 250px;
-  height: 25px;
-  font-size: 1em;
-  border-radius: 10px;
-}
-
-.uno{
-  margin: 0 auto;
-  text-align: center;
-}
-
-.uno p{
-  font-size: 0.8em;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#i1{
-  background: url(../iconetes/man-user.png);
-  background-color: white;
-  padding: 2px;
-  padding-left: 30px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: 5px center;
-  border: solid white 2px;
-  color: black;
-}
-
-#i2{
-  background: url(../iconetes/padlock.png);
-  background-color: white;
-  padding: 2px;
-  padding-left: 30px;
-  margin-left: -5px;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: 5px center;
-  border: solid white 2px;
-  color: black;
-}
-
-.tres{
-  position: absolute;
-  bottom: 5%;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: 225px;
-}
-
-.rrss{
-  height: 50px;
-  width: 50px;
-  background-image: url(../iconetes/rrss.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  float: left;
-  margin-left: 5px;
-}
-
-#facebook{
-}
-
-#google{
-  background-position: 0px -50px;
-}
-
-#twitter{
-  background-position: 0px -150px;
-}
-
-#insta{
-  background-position: 0px -100px;
-}
-
-#acceder{
-  font-size: 1em;
-  height: auto;
-  padding: 3px;
-  width: 100px;
-  background-color: rgb(255,153,51);
-  margin: 0 auto;
-  line-height: 1.4em;
-  text-align: center;
-  border-radius: 20px;
-  margin-top: 25px;
-  margin-bottom: 10px;
-  outline: none;
-}
-
-.dos h5{
-  font-size: 1.1em;
-}
-
-.hreff{
-  height: 17px;
-  width: 100px;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
-
-  html, body{
-    overflow-y: scroll;
-  }
-
-  .foto{
-    height: 100px;
-    width: 100px;
-    background-image: url(../iconetes/logo.png);
-    background-size: cover;
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .foto {
+    height: 200px;
+    width: 200px;
+    background-image: url(../iconetes/logo_study.png);
+    background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 50%;
+    background-position: center;
     margin: 0 auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
-  .a{
+
+  .a {
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -166,7 +22,141 @@ input{
     margin-bottom: 20px;
   }
 
-  input{
+  input {
+    outline: none;
+    margin: 0 auto;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
+
+  .uno {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .uno p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #i1 {
+    background: url(../iconetes/man-user.png);
+    background-color: white;
+    padding: 2px;
+    padding-left: 30px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    border: solid white 2px;
+    color: black;
+  }
+
+  #i2 {
+    background: url(../iconetes/padlock.png);
+    background-color: white;
+    padding: 2px;
+    padding-left: 30px;
+    margin-left: -5px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    border: solid white 2px;
+    color: black;
+  }
+
+  .tres {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 225px;
+  }
+
+  .rrss {
+    height: 50px;
+    width: 50px;
+    background-image: url(../iconetes/rrss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 5px;
+  }
+
+  #facebook {}
+
+  #google {
+    background-position: 0px -50px;
+  }
+
+  #twitter {
+    background-position: 0px -150px;
+  }
+
+  #insta {
+    background-position: 0px -100px;
+  }
+
+  #acceder {
+    font-size: 1em;
+    height: auto;
+    padding: 3px;
+    width: 100px;
+    background-color: rgb(255, 153, 51);
+    margin: 0 auto;
+    line-height: 1.4em;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+
+  .dos h5 {
+    font-size: 1.1em;
+  }
+
+  .hreff {
+    height: 17px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+  html, body {
+    overflow-y: scroll;
+  }
+
+  .foto {
+    height: 100px;
+    width: 100px;
+    background-image: url(../iconetes/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .a {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 20px;
+  }
+
+  input {
     outline: none;
     margin: 0 auto;
     padding-left: 25px;
@@ -174,12 +164,12 @@ input{
     width: 150px;
   }
 
-  .uno{
+  .uno {
     margin: 0 auto;
     text-align: center;
   }
 
-  #i1{
+  #i1 {
     background: url(../iconetes/man-user.png);
     background-color: white;
     padding: 2px;
@@ -190,7 +180,7 @@ input{
     color: black;
   }
 
-  #i2{
+  #i2 {
     background: url(../iconetes/padlock.png);
     background-color: white;
     padding: 2px;
@@ -202,19 +192,17 @@ input{
     color: black;
   }
 
-
-
-  button{
+  button {
     outline: hidden;
     border: none;
   }
 
-  .tres{
+  .tres {
     margin: 0 auto;
     width: 225px;
   }
 
-  .rrss{
+  .rrss {
     height: 50px;
     width: 50px;
     background-image: url(../iconetes/rrss.png);
@@ -224,27 +212,26 @@ input{
     margin-left: 5px;
   }
 
-  #facebook{
-  }
+  #facebook {}
 
-  #google{
+  #google {
     background-position: 0px -50px;
   }
 
-  #twitter{
+  #twitter {
     background-position: 0px -150px;
   }
 
-  #insta{
+  #insta {
     background-position: 0px -100px;
   }
 
-  #acceder{
+  #acceder {
     font-size: 1em;
     height: auto;
     padding: 3px;
     width: 100px;
-    background-color: rgb(255,153,51);
+    background-color: rgb(255, 153, 51);
     margin: 0 auto;
     line-height: 1.4em;
     text-align: center;
@@ -254,164 +241,155 @@ input{
     outline: none;
   }
 
-  .hreff{
+  .hreff {
     height: 17px;
     width: 100px;
   }
 
-  .dos h5{
+  .dos h5 {
     font-size: 0.9em;
   }
+}
 
-
+@media only screen and (min-width: 740px) {
+  html, body {
+    overflow-y: scroll;
   }
 
+  .foto {
+    height: 300px;
+    width: 300px;
+    background-image: url(../iconetes/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
 
+  .a {
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
 
+  input {
+    outline: none;
+    margin: 0 auto;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    width: 250px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+  }
 
+  .uno {
+    margin: 0 auto;
+    text-align: center;
+  }
 
+  #i1 {
+    background: url(../iconetes/man-user.png);
+    background-color: white;
+    padding: 2px;
+    padding-left: 25px;
+    background-size: 6%;
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border: solid white 2px;
+    color: black;
+  }
 
+  #i2 {
+    background: url(../iconetes/padlock.png);
+    background-color: white;
+    padding: 2px;
+    padding-left: 25px;
+    margin-left: -6px;
+    background-size: 6%;
+    background-position: 2px center;
+    background-repeat: no-repeat;
+    border: solid white 2px;
+    color: black;
+  }
 
+  .tres {
+    margin: 0 auto;
+    width: 225px;
+  }
 
+  .rrss {
+    height: 50px;
+    width: 50px;
+    background-image: url(../iconetes/rrss.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 5px;
+  }
 
+  #facebook {}
 
-  @media only screen and (min-width: 740px){
+  #google {
+    background-position: 0px -50px;
+  }
 
-    html, body{
-      overflow-y: scroll;
-    }
+  #twitter {
+    background-position: 0px -150px;
+  }
 
-    .foto{
-      height: 300px;
-      width: 300px;
-      background-image: url(../iconetes/logo.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 50%;
-      margin: 0 auto;
-      margin-top: 15px;
-      margin-bottom: 10px;
-    }
-    .a{
-      height: 300px;
-      width: 300px;
-      background-size: cover;
-      background-repeat: no-repeat;
-      border-radius: 50%;
-      margin: 0 auto;
-      margin-bottom: 20px;
-    }
+  #insta {
+    background-position: 0px -100px;
+  }
 
-    input{
-      outline: none;
-      margin: 0 auto;
-      padding-left: 25px;
-      margin-bottom: 5px;
-      margin-top: 5px;
-      font-size: 0.9em;
-      width: 250px;
-    }
+  button {
+    font-size: 1em;
+    height: auto;
+    padding: 3px;
+    width: 100px;
+    background-color: rgb(255, 153, 51);
+    margin: 0 auto;
+    line-height: 1.4em;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    outline: none;
+  }
 
-    .uno{
-      margin: 0 auto;
-      text-align: center;
-    }
+  #acceder {
+    font-size: 1em;
+    height: auto;
+    padding: 3px;
+    width: 100px;
+    background-color: rgb(255, 153, 51);
+    margin: 0 auto;
+    line-height: 1.4em;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    outline: none;
+  }
 
-    #i1{
-      background: url(../iconetes/man-user.png);
-      background-color: white;
-      padding: 2px;
-      padding-left: 25px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      border: solid white 2px;
-      color: black;
-    }
+  .hreff {
+    height: 17px;
+    width: 100px;
+  }
 
-    #i2{
-      background: url(../iconetes/padlock.png);
-      background-color: white;
-      padding: 2px;
-      padding-left: 25px;
-      margin-left: -6px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      border: solid white 2px;
-      color: black;
-    }
+  .uno p {
+    margin-top: 30px;
+  }
 
-    .tres{
-      margin: 0 auto;
-      width: 225px;
-    }
-
-    .rrss{
-      height: 50px;
-      width: 50px;
-      background-image: url(../iconetes/rrss.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      float: left;
-      margin-left: 5px;
-    }
-
-    #facebook{
-    }
-
-    #google{
-      background-position: 0px -50px;
-    }
-
-    #twitter{
-      background-position: 0px -150px;
-    }
-
-    #insta{
-      background-position: 0px -100px;
-    }
-
-    button{
-        font-size: 1em;
-        height: auto;
-        padding: 3px;
-        width: 100px;
-        background-color: rgb(255,153,51);
-        margin: 0 auto;
-        line-height: 1.4em;
-        text-align: center;
-        border-radius: 20px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        outline: none;
-    }
-
-    #acceder{
-      font-size: 1em;
-      height: auto;
-      padding: 3px;
-      width: 100px;
-      background-color: rgb(255,153,51);
-      margin: 0 auto;
-      line-height: 1.4em;
-      text-align: center;
-      border-radius: 20px;
-      margin-top: 25px;
-      margin-bottom: 10px;
-      outline: none;
-    }
-
-    .hreff{
-      height: 17px;
-      width: 100px;
-    }
-
-    .uno p{
-      margin-top: 30px;
-    }
-
-    .dos h5{
-      font-size: 1.2em;
-    }
-
-
-    }
+  .dos h5 {
+    font-size: 1.2em;
+  }
+}

@@ -1,117 +1,101 @@
-@media only screen and (max-width: 480px)  and (orientation: portrait) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .central {
+    position: absolute;
+    top: 8%;
+    height: 83%;
+    width: 100%;
+    overflow-y: scroll;
+  }
 
-.central{
-  position: absolute;
-  top: 8%;
-  height: 83%;
-  width: 100%;
-  overflow-y: scroll;
+  .apartado {
+    height: auto;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: transparent;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 5px;
+    height: 10%;
+    width: 100%;
+    position: relative;
+  }
+
+  .dentro {
+    height: 100;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
+
+  .dentro p {
+    text-align: left;
+    font-size: 0.8em;
+    text-align: justify;
+  }
+
+  ul {
+    padding-top: 4px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .atras {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background-image: url(../iconetes/atras.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    margin-left: 5px;
+  }
+
+  .logo {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    background-image: url(../iconetes/logob.png);
+    background-size: contain;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    right: 0;
+    margin-right: 5px;
+    margin-top: 1.5%;
+  }
 }
-
-.apartado{
-  height: auto;
-  width: 87%;
-  margin: 0 auto;
-  margin-top: 1.5%;
-  margin-bottom: 1%;
-  border: none;
-}
-
-
-
-h3{
-  margin: 0;
-  padding: 0;
-  font-size: 0.9em;
-  text-align: center;
-  margin-bottom: 5px;
-  height: 10%;
-  width: 100%;
-  position: relative;
-}
-
-.dentro{
-  height: 100;
-  width: 90%;
-  margin: 0 auto;
-  text-align: left;
-  position: relative;
-}
-
-.dentro p{
-  text-align: left;
-  font-size: 0.8em;
-  text-align: justify;
-}
-
-ul{
-  padding-top: 4px;
-  font-size: 0.8em;
-  line-height: 1.3em;
-}
-
-li{
-  margin-bottom: 5px;
-}
-
-
-
-.atras{
-position: absolute;
-  height: 100%;
-  width: 50px;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  left: 0;
-  margin-left: 5px;
-}
-
-.logo{
-  position: absolute;
-  height: 100%;
-  width: 50px;
-  background-image: url(../iconetes/logob.png);
-  background-size: contain;
-  background-size: 80%;
-  background-repeat: no-repeat;
-  right: 0;
-  margin-right: 5px;
-  margin-top: 1.5%;
-}
-
-}
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
-
-  .central{
+  .central {
     position: absolute;
     width: 100%;
     overflow-y: scroll;
   }
 
-  .apartado{
+  .apartado {
     height: auto;
-    width: 92%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 1.5%;
     margin-bottom: 1%;
-    background-color: rgba(255,153,51,0.3);
-    border: solid 2px rgb(255,153,51);
-    border-radius: 10px;
+    background-color: transparent;
+    border: none;
     padding-top: 0;
   }
 
-  h3{
+  h3 {
     margin: 0;
     margin-left: 10px;
     padding: 0;
@@ -122,7 +106,7 @@ position: absolute;
     position: relative;
   }
 
-  .dentro{
+  .dentro {
     height: auto;
     width: 90%;
     margin: 0 auto;
@@ -130,88 +114,75 @@ position: absolute;
     position: relative;
   }
 
-  .dentro p{
+  .dentro p {
     text-align: left;
     font-size: 0.8em;
     margin-top: 2%;
     margin-bottom: 10px;
   }
 
-  ul{
+  ul {
     padding-top: 4px;
     font-size: 0.8em;
     line-height: 1.3em;
   }
 
-  li{
+  li {
     margin-bottom: 5px;
   }
+}
 
+@media only screen and (min-width: 740px) {
+  .central {
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
   }
 
+  .apartado {
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    background-color: transparent;
+    border: none;
+    padding-top: 0;
+  }
 
+  h3 {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 1em;
+    height: 10%;
+    width: 100%;
+    position: relative;
+  }
 
+  .dentro {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+  }
 
+  .dentro p {
+    text-align: left;
+    font-size: 0.8em;
+    margin-top: 7px;
+    margin-bottom: 15px;
+  }
 
+  ul {
+    padding-top: 4px;
+    font-size: 0.8em;
+    line-height: 1.3em;
+  }
 
-
-
-
-
-  @media only screen and (min-width: 740px){
-
-    .central{
-      position: absolute;
-      width: 100%;
-      overflow-y: scroll;
-    }
-
-    .apartado{
-      height: auto;
-      width: 92%;
-      margin: 0 auto;
-      margin-top: 1.5%;
-      margin-bottom: 1%;
-      background-color: rgba(255,153,51,0.3);
-      border: solid 2px rgb(255,153,51);
-      border-radius: 10px;
-      padding-top: 0;
-    }
-
-    h3{
-      margin: 0;
-      margin-left: 10px;
-      padding: 0;
-      padding-top: 10px;
-      font-size: 1em;
-      height: 10%;
-      width: 100%;
-      position: relative;
-    }
-
-    .dentro{
-      height: auto;
-      width: 90%;
-      margin: 0 auto;
-      text-align: left;
-      position: relative;
-    }
-
-    .dentro p{
-      text-align: left;
-      font-size: 0.8em;
-      margin-top: 7px;
-      margin-bottom: 15px;
-    }
-
-    ul{
-      padding-top: 4px;
-      font-size: 0.8em;
-      line-height: 1.3em;
-    }
-
-    li{
-      margin-bottom: 5px;
-    }
-
-    }
+  li {
+    margin-bottom: 5px;
+  }
+}

@@ -1,146 +1,125 @@
-@media only screen and (max-width: 480px)  and (orientation: portrait) {
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+  .central {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
+  .arriba {
+    height: 50%;
+    width: 100%;
+  }
 
-.central{
-  width: 96%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
+  .izq {
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 10%;
+  }
 
-.arriba{
-  height: 50%;
-  width: 100%;
-}
+  .izq p {
+    margin: 0;
+    padding: 0;
+  }
 
-.izq{
-  height: 100%;
-  width: 50%;
-  float: left;
-  padding-top: 10%;
-}
-.izq p{
-  margin: 0;
-  padding: 0;
-}
+  #descripcion {
+    text-align: justify;
+    padding: 15px;
+  }
 
-.izq input{
-  font-size: 0.4em;
-  margin-left: 30%;
-}
+  .arriba img {
+    height: auto;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    margin: 0 auto;
+  }
 
-input#miArchivo{
-  color: transparent;
-}
+  .drc {
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-top: 10%;
+  }
 
-#descripcion{
-text-align: justify;
-padding: 15px;
-}
+  .txt {
+    float: left;
+    width: 25%;
+  }
 
-.arriba img{
-  height: auto;
-  width: 50%;
-  position: relative;
-  left: 25%;
-  margin: 0 auto;
-}
+  .txt p {
+    margin-bottom: 2.6em;
+    text-align: left;
+    height: 20px;
+  }
 
-.drc{
-  height: 100%;
-  width: 50%;
-  float: right;
-  padding-top: 10%;
-}
+  .inp {
+    width: 95%;
+    float: right;
+  }
 
-.txt{
-  float: left;
-  width: 25%;
-}
+  .inp input {
+    outline: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+    height: 20px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 153, 51, 0.8);
+  }
 
-.txt p{
-  margin-bottom: 2.6em;
-  text-align: left;
-  height: 20px;
-}
-
-.inp{
-  width: 75%;
-  float: right;
-}
-
-.inp input{
-  height: 17.2px;
-  padding: 0;
-  margin: 0;
-  width: 80%;
-  float: right;
-  margin-right: 0;
-  margin-bottom: 2.1em;
-  outline: none;
-}
-
-.abajo{
+  .abajo {
     height: 47%;
     width: 100%;
     margin-top: 3%;
+  }
+
+  .apartado {
+    line-height: 3em;
+    font-size: 0.9em;
+    padding-left: 2%;
+  }
+
+  .legales {
+    font-size: 0.6em;
+    text-align: right;
+    margin: 0;
+    padding: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 0px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  .apartado {
+    height: 40px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border: solid 1px rgb(255, 153, 51);
+    border-radius: 10px;
+  }
+
+  .apartado h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    line-height: 90px;
+    padding-left: 20px;
+  }
 }
-
-.apartado{
-  line-height: 3em;
-  font-size: 0.9em;
-  padding-left: 2%;
-}
-
-.legales{
-  font-size: 0.6em;
-  text-align: right;
-  margin: 0;
-  padding: 5px;
-  position: absolute;
-  bottom: 15px;
-  right: 0px;
-  border: 1px solid rgb(0, 0, 0);
-}
-
-.apartado{
-  height: 40px;
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 1%;
-  margin-bottom: 2%;
-  border: solid 1px rgb(255,153,51);
-  border-radius: 10px;
-}
-
-.apartado h1{
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-  line-height: 90px;
-  padding-left: 20px;
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
 
 @media only screen and (min-width: 481px) and (max-width: 739px) and (orientation: landscape) {
+  html, body, .central {
+    overflow-y: scroll;
+    overflow-x: none;
+  }
 
-html, body, .central{
-  overflow-y: scroll;
-  overflow-x: none;
-}
-
-  .central{
+  .central {
     width: 96%;
     height: 74%;
     overflow-y: scroll;
@@ -148,41 +127,29 @@ html, body, .central{
     margin-right: 2%;
   }
 
-  .arriba{
-    height: 50%;
+  .arriba {
+    height: 60%;
     width: 100%;
   }
 
-  .izq{
+  .izq {
     position: absolute;
     height: 100%;
     width: 50%;
     float: left;
   }
-  .izq p{
+
+  .izq p {
     margin: 0;
     padding: 0;
   }
 
-  .izq input{
-    width: 22%;
-    font-size: 0.6em;
-    margin-left: 38%;
-    margin-top: 3%;
-    border: solid 1px black;
+  #descripcion {
     text-align: center;
+    padding: 15px;
   }
 
-  input#miArchivo{
-    color: transparent;
-  }
-
-  #descripcion{
-  text-align: justify;
-  padding: 15px;
-  }
-
-  .arriba img{
+  .arriba img {
     height: auto;
     width: 30%;
     position: relative;
@@ -191,54 +158,48 @@ html, body, .central{
     margin: 0 auto;
   }
 
-  .drc{
+  .drc {
     height: 100%;
     width: 50%;
     float: right;
   }
 
-  .txt{
+  .txt {
     float: left;
     width: 25%;
   }
 
-  .txt p{
+  .txt p {
     margin-bottom: 1em;
     text-align: left;
     height: 20px;
   }
 
-  .inp{
-    width: 75%;
+  .inp {
+    width: 95%;
     float: right;
   }
 
-  .inp input{
-    height: 17.2px;
-    padding: 0;
-    margin: 0;
-    width: 80%;
-    float: right;
-    margin-right: 0;
-    margin-bottom: 1em;
+  .inp input {
     outline: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 4px;
+    width: 90%;
+    height: 20px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgba(255, 153, 51, 0.8);
   }
 
-  .abajo{
-      height: 48%;
-      width: 50%;
-      float: right;
-      margin-top: 0%;
+  .abajo {
+    height: 40%;
+    width: 50%;
+    float: right;
   }
 
-  .apartado{
-    height: 25%;
-    line-height: 2.5em;
-    font-size: 0.9em;
-    padding-left: 2%;
-  }
-
-  .legales{
+  .legales {
     font-size: 0.5em;
     text-align: left;
     margin: 0;
@@ -249,50 +210,40 @@ html, body, .central{
     border: 1px solid rgb(0, 0, 0);
   }
 
-  .apartado{
-    height: 35px;
-    width: 90%;
+  .apartado {
+    line-height: 25px;
+    font-size: 0.9em;
+    padding-left: 2%;
+    height: 25px;
+    width: 85%;
     margin: 0 auto;
     margin-top: 1%;
     margin-bottom: 2%;
-    border: solid 1px rgb(255,153,51);
+    border: solid 1px rgb(255, 153, 51);
     border-radius: 10px;
   }
-
 }
 
+@media only screen and (min-width: 740px) {
+  html, body, .central {
+    overflow-y: scroll;
+  }
 
+  header h2 {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    background-image: url(../iconetes/atras.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+  }
 
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 740px){
-
-html, body, .central{
-  overflow-y: scroll;
-}
-
-header h2{
-  height: 100%;
-  width: auto;
-  position: absolute;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 1em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  margin-left: 2%;
-}
-
-  .central{
+  .central {
     width: 96%;
     height: 74%;
     overflow-y: scroll;
@@ -300,43 +251,32 @@ header h2{
     margin-right: 2%;
   }
 
-  .arriba{
+  .arriba {
     height: 50%;
     width: 100%;
   }
 
-  .izq{
+  .izq {
     position: absolute;
     height: 50%;
     width: 50%;
     float: left;
   }
-  .izq p{
+
+  .izq p {
     margin: 0;
     padding: 0;
-    margin-top: 5px;
+    margin-top: 15px;
   }
 
-  .izq input{
-    width: 22%;
-    font-size: 0.6em;
-    margin-left: 43%;
-    margin-right: 45%;
-    margin-top: 5%;
+  #descripcion {
     text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-top: 8px;
   }
 
-  input#miArchivo{
-    color: transparent;
-  }
-
-  #descripcion{
-  text-align: justify;
-  padding: 20px;
-  padding-top: 8px;
-  }
-
-  .arriba img{
+  .arriba img {
     height: auto;
     width: 30%;
     position: relative;
@@ -345,73 +285,75 @@ header h2{
     margin: 0 auto;
   }
 
-  .drc{
+  .drc {
     height: 100%;
     width: 50%;
     float: right;
     padding-top: 3%;
   }
 
-  .txt{
+  .txt {
     float: left;
     width: 25%;
   }
 
-  .txt p{
+  .txt p {
     margin-bottom: 2em;
     text-align: left;
     height: 20px;
   }
 
-  .inp{
-    width: 75%;
+  .inp {
+    width: 95%;
     float: right;
   }
 
-  .inp input{
-    height: 17.2px;
-    padding: 0;
-    margin: 0;
-    width: 80%;
-    float: right;
-    margin-right: 0;
-    margin-bottom: 2.7em;
+  .inp input {
     outline: none;
-  }
-
-  .abajo{
-    height: 43%;
-    width: 100%;
-    margin-top: 5%;
-  }
-
-  .apartado{
-    height: auto;
-    padding: 15px 0;
-    line-height: 2.5em;
-    font-size: 0.9em;
-    padding-left: 2%;
-  }
-
-  .legales{
-    font-size: 0.5em;
-    text-align: left;
-    margin: 0;
-    padding: 5px;
-    position: absolute;
-    bottom: 00px;
-    right: 0px;
-    border: 1px solid rgb(0, 0, 0);
-  }
-
-  .apartado{
-    height: 35px;
-    width: 90%;
     margin: 0 auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border: solid 1px rgb(255,153,51);
+    padding-left: 20px;
+    margin-bottom: 25px;
+    width: 90%;
+    height: 30px;
+    font-size: 1em;
     border-radius: 10px;
+    outline: none;
+    border: none;
   }
+}
 
+.abajo {
+  height: 43%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.apartado {
+  height: auto;
+  padding: 15px 0;
+  line-height: 2.5em;
+  font-size: 0.9em;
+  padding-left: 2%;
+}
+
+.legales {
+  font-size: 0.5em;
+  text-align: left;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  bottom: 0px;
+  right: 5%;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.apartado {
+  height: 35px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: solid 1px rgb(255, 153, 51);
+  border-radius: 10px;
+}
 }
