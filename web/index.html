@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
   <html lang="es" manifest="cache.manifest">
   <meta charset="UTF-8">
@@ -12,18 +13,14 @@
   <meta name="theme-color" content="#FF9933">
   <meta name="msapplication-navbutton-color" content="#FF9933">
   <meta name="apple-mobile-web-app-status-bar-style" content="#FF9933">
-  
-  <link rel="icon" sizes="192x192" href="iconetes/logo.png">
-  <link rel="icon" sizes="512x512" href="iconetes/logo.png">
+
+  <link rel="icon" sizes="192x192" href="html/img/icon.png">
+  <link rel="icon" sizes="512x512" href="html/img/icon.png">
   <link rel="apple-touch-icon" sizes="192x192" href="html/img/icon.png">
+
   <link rel="stylesheet" href="css/comun.css">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/barra_vertical.css">
-
-
-
-
-  <meta charset="utf-8">
 
 
 
@@ -33,58 +30,56 @@
   <title>A+ Study</title>
 
   <style>
+    @media only screen and (max-width: 480px) and (orientation: portrait) {
 
-@media only screen and (max-width: 480px) and (orientation: portrait) {
+      .a {
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        background-image: url(iconetes/logo.png);
+        background-size: cover;
+      }
 
-  .a{
-    position: absolute;
-    left: 50%;
-    top: 35%;
-    transform: translate(-50%, -50%);
-    background-image: url(iconetes/logo.png);
-    background-size: cover;
-  }
-
-}
-
+    }
 
 
 
 
 
-@media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
+
+    @media only screen and (min-width: 481px) and (max-width: 960px) and (orientation: landscape) {
 
 
-.a{
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-  height: 250px;
-  width: 250px;
-  background-image: url(iconetes/logo.png);
-  background-size: cover;
-}
+      .a {
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+        height: 250px;
+        width: 250px;
+        background-image: url(iconetes/logo.png);
+        background-size: cover;
+      }
 
-}
-
-
-
-@media only screen and (min-width: 740px){
+    }
 
 
-.a{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url(iconetes/logo.png);
-  height: 350px;
-  width: 350px;
-}
 
-}
+    @media only screen and (min-width: 740px) {
 
+
+      .a {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-image: url(iconetes/logo.png);
+        height: 350px;
+        width: 350px;
+      }
+
+    }
   </style>
 
 </head>
