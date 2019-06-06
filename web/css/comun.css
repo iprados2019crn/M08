@@ -10,13 +10,12 @@
   -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
 }
 
-body{
-  background-color: rgba(255,153,51,0.3);
-
-}
+  body{
+    background-color:  rgba(255,153,51,0.15);
+  }
 
 p{
-font-size: 0.7em;
+font-size: 0.8em;
 text-align: center;
 margin-top: 3px;
 }
@@ -76,18 +75,20 @@ header p{
 }
 
 hr{
-    border: 1px solid rgba(255,153,51, 0.8);
-    border-radius: 1px;
-    width: 90%;
-    margin: 25px auto;
+  border: 1px solid rgba(255,153,51, 0.8);
+  color:rgba(255,153,51, 1);
+  background-color: rgba(255,153,51, 1);
+  border-radius: 1px;
+  width: 90%;
+  margin: 25px auto;
 }
 
 .central{
-position: absolute;
-top: 9%;
-height: 80%;
-width: 100%;
-overflow-y: scroll;
+  position: absolute;
+  top: 9%;
+  height: 80%;
+  width: 100%;
+  overflow-y: scroll;
 }
 
 .central a {
@@ -124,9 +125,10 @@ footer{
   width: 100%;
   margin: 0 auto;
   margin-top: 1%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   border-top: solid 1px rgb(255,153,51);
   border-bottom: solid 1px rgb(255,153,51);
+  background-color: rgba(255,153,51,0.2);
 }
 
 .apartado h1{
@@ -165,6 +167,10 @@ position: absolute;
   margin-bottom: 15%;
   margin-left: 3px;
 }
+
+button{
+  border: none;
+}
 }
 
 
@@ -198,10 +204,10 @@ html, body{
   height: 100%;
 }
 
-body{
-  background-color: rgba(255,153,51,0.3);
 
-}
+  body{
+    background-color:  rgba(255,153,51,0.15);
+  }
 
 p{
 font-size: 0.7em;
@@ -264,12 +270,10 @@ header p{
 }
 
 hr{
-  border: 1px solid #222;
+  border: 1px solid rgba(255,153,51, 0.8);
   border-radius: 2px;
   width: 50%;
   margin: 15px auto;
-  color: black;
-  background-color: black;
 }
 
 .central{
@@ -287,6 +291,7 @@ overflow-y: scroll;
   margin-bottom: 1%;
   border-top: solid 1px rgb(255,153,51);
   border-bottom: solid 1px rgb(255,153,51);
+  background-color: rgba(255,153,51,0.2);
 }
 
 .apartado h1{
@@ -370,10 +375,10 @@ html, body{
   height: 100%;
 }
 
-body{
-  background-color: rgba(255,153,51,0.3);
 
-}
+  body{
+    background-color:  rgba(255,153,51,0.15);
+  }
 
 p{
 font-size: 1em;
@@ -436,12 +441,10 @@ header p{
 }
 
 hr{
-  border: 1px solid #222;
+  border: 1px solid rgba(255,153,51, 0.8);
   border-radius: 2px;
   width: 50%;
   margin: 40px auto;
-  color: black;
-  background-color: black;
 }
 
 .central{
@@ -459,14 +462,15 @@ overflow-y: scroll;
   margin-bottom: 1%;
   border-top: solid 1px rgb(255,153,51);
   border-bottom: solid 1px rgb(255,153,51);
+  background-color: rgba(255,153,51,0.2);
 }
 
 .apartado h1{
   margin: 0;
   padding: 0;
-  font-size: 0.9em;
+  font-size: 1em;
   padding: 30px 0;
-  padding-left: 15px;
+  padding-left: 25px;
   line-height: 55px;
 }
 

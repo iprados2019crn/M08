@@ -137,28 +137,13 @@ padding: 15px;
 
 html, body, .central{
   overflow-y: scroll;
-}
-
-header #atras{
-  height: 100%;
-  width: auto;
-  position: absolute;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-position: 0 -2px;
-  background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 2.5%;
-  margin-left: 2%;
+  overflow-x: none;
 }
 
   .central{
     width: 96%;
     height: 74%;
-    overflow: scroll;
+    overflow-y: scroll;
     margin-left: 2%;
     margin-right: 2%;
   }

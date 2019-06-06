@@ -96,6 +96,7 @@ hr{
     margin-top: 10px;
     margin-left: 10%;
     margin-right: 10%;
+    overflow-y: scroll;
   }
 
   .central h1{
@@ -106,6 +107,7 @@ hr{
   }
 
   .central p{
+    font-size: 0.8em;
     margin: 0;
     text-align: left;
   }
@@ -118,11 +120,11 @@ hr{
 
 
   #fotobjetivo{
-    height: 30%;
-    width: 40%;
+    height: 25%;
+    width: 25%;
       position: absolute;
       left: 50%;
-      top: 65%;
+      top: 70%;
       transform: translate(-50%, -50%);
     background-image: url(../imagenes/obj1.jpg);
     background-size: cover;
@@ -255,11 +257,11 @@ hr{
       width: 5%;
       background-image: url(../iconetes/favorite.png);
       background-repeat: no-repeat;
-      background-size: 30%;
+      background-size: 40px;
       background-position: 70%;
       position: absolute;
       right: 10px;
-      top: 10%;
+      top: 15%;
       bottom: 30%;
     }
 

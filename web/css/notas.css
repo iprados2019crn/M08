@@ -15,15 +15,22 @@ textarea{
 }
 
 .guardar{
-  font-size: 0.6em;
-  text-align: right;
-  margin: 0;
-  padding: 5px;
-  position: absolute;
-  bottom: 15px;
-  right: 10px;
-  border: 1px solid rgb(0, 0, 0);
-  outline: none;
+    font-size: 0.9em;
+    height: auto;
+    padding: 3px;
+    width: 100px;
+    background-color: rgb(255,153,51);
+    margin: 0 auto;
+    line-height: 1.4em;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
 }
 
 .nuevo{
@@ -65,15 +72,22 @@ textarea{
   }
 
   .guardar{
-    font-size: 0.7em;
-    text-align: right;
-    margin: 0;
-    padding: 5px;
-    position: absolute;
-    bottom: 15px;
-    right: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    outline: none;
+      font-size: 0.9em;
+      height: auto;
+      padding: 3px;
+      width: 100px;
+      background-color: rgb(255,153,51);
+      margin: 0 auto;
+      line-height: 1.4em;
+      text-align: center;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      outline: none;
+      border: none;
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
   }
 
   .nuevo{
@@ -117,15 +131,34 @@ textarea{
 
 
   .guardar{
-    font-size: 0.9em;
-    text-align: right;
-    margin: 0;
-    padding: 5px;
+      font-size: 0.9em;
+      height: auto;
+      padding: 3px;
+      width: 100px;
+      background-color: rgb(255,153,51);
+      margin: 0 auto;
+      line-height: 1.4em;
+      text-align: center;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      outline: none;
+      border: none;
+      position: absolute;
+      bottom: 15px;
+      right: 25px;
+  }
+
+  .nuevo{
     position: absolute;
-    bottom: 15px;
-    right: 10px;
-    border: 1px solid rgb(0, 0, 0);
-    outline: none;
+    bottom: 20px;
+    right: 20px;
+    height: auto;
+    width: auto;
+    font-size: 0.4em;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
   }
 
 }

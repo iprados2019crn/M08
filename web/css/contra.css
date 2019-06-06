@@ -11,21 +11,6 @@
     -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
   }
 
-header #atras{
-  height: 100%;
-  width: auto;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 3%;
-  margin-left: 2%;
-}
-
-
 .central{
   text-align: left;
 }
@@ -40,24 +25,36 @@ header #atras{
   margin-bottom: 2%;
 }
 
-.central input{
-  width: 55%;
-  margin-bottom: 2%;
+input{
   outline: none;
+  margin: 0 auto;
+  padding-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 25px;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  border: 0px;
 }
 
 button{
-  margin: 0;
-  padding: 0;
+  font-size: 0.9em;
+  height: auto;
+  padding: 3px;
+  width: 100px;
+  background-color: rgb(255,153,51);
+  margin: 0 auto;
+  line-height: 1.4em;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
 }
 
-.central #buscar{
-  width: 20%;
-  padding: 3px;
-  border: 1px solid;
-  font-size: 0.6em;
-  text-align: center;
-}
 }
 
 
@@ -124,18 +121,36 @@ button{
     outline: none;
   }
 
-  button{
-    margin: 0;
-    padding: 0;
+  input{
+    outline: none;
+    margin: 0 auto;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
   }
 
-  .central #buscar{
-    width: 15%;
+  button{
+    font-size: 0.9em;
+    height: auto;
     padding: 3px;
-    border: 1px solid;
-    font-size: 0.6em;
+    width: 100px;
+    background-color: rgb(255,153,51);
+    margin: 0 auto;
+    line-height: 1.4em;
     text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
   }
+
 
 }
 
@@ -205,17 +220,34 @@ button{
     outline: none;
   }
 
-  button{
-    margin: 0;
-    padding: 0;
+  input{
+    outline: none;
+    margin: 0 auto;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    outline: none;
+    border: 0px;
   }
 
-  .central #buscar{
-    width: 15%;
+  button{
+    font-size: 0.9em;
+    height: auto;
     padding: 3px;
-    border: 1px solid;
-    font-size: 0.7em;
+    width: 100px;
+    background-color: rgb(255,153,51);
+    margin: 0 auto;
+    line-height: 1.4em;
     text-align: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
   }
 
 }

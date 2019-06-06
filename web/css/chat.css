@@ -1,6 +1,7 @@
 @media only screen and (max-width: 480px) and (orientation: portrait) {
 
 h3{
+  width: 100px;
   margin: 0 auto;
   position: absolute;
   left: 0;
@@ -8,22 +9,6 @@ h3{
   right:0;
   line-height: 300%;
   text-align: center;
-}
-
-header #atras{
-  height: 100%;
-  width: auto;
-  position: absolute;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 4%;
-  margin-left: 2%;
-  z-index: 10000;
 }
 
 .contenedor{
@@ -49,7 +34,7 @@ header #atras{
   height: auto;
   width: auto;
   max-width: 80%;
-  background-color: rgba(255,127,80,0.5);
+  background-color: #fff;
   float: left;
   margin-bottom: 2%;
   padding: 5px;
@@ -78,28 +63,35 @@ input{
 }
 
 button{
-    padding: 5px;
-    font-size: 0.7em;
-    position: absolute;
-    bottom: 15%;
-    right: 5%;
-  border: solid 1px black;
+  font-size: 1em;
+  height: auto;
+  padding: 3px;
+  width: 100px;
+  background-color: rgb(255,153,51);
+  margin: 0 auto;
+  line-height: 1.4em;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   outline: none;
 }
 
 .contador{
-    padding: 5px;
-    font-size: 0.7em;
-    position: absolute;
-    bottom: 15%;
-    left: 5%;
-  border: solid 1px black;
-  outline: none;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
 }
 
 .contador:active{
   opacity: 0.8;
   box-shadow: 0px 0 5px;
+}
+
+.chat{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
 }
 }
 
@@ -121,27 +113,12 @@ html, body, .contenido{
 h3{
   margin: 0 auto;
   position: absolute;
+  width: 100px;
   left: 0;
   top: 0;
   right:0;
   line-height: 300%;
   text-align: center;
-}
-
-header #atras{
-  height: 100%;
-  width: auto;
-  position: absolute;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-position: 0 -2px;
-  background-repeat: no-repeat;
-  font-size: 0.8em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  padding-top: 3%;
-  margin-left: 2%;
 }
 
 .contenedor{
@@ -167,7 +144,7 @@ header #atras{
   height: auto;
   width: auto;
   max-width: 80%;
-  background-color: rgba(255,127,80,0.5);
+  background-color: #fff;
   float: left;
   margin-bottom: 2%;
   padding: 5px;
@@ -196,24 +173,30 @@ input{
 }
 
 button{
-  padding: 5px;
-  font-size: 0.7em;
-  position: absolute;
-  bottom: 15%;
-  right: 5%;
-  border: solid 1px black;
+  font-size: 1em;
+  height: auto;
+  padding: 3px;
+  width: 100px;
+  background-color: rgb(255,153,51);
+  margin: 0 auto;
+  line-height: 1.4em;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   outline: none;
 }
 .contador{
-  padding: 5px;
-  font-size: 0.7em;
   position: absolute;
   bottom: 15%;
   left: 5%;
-  border: solid 1px black;
-  outline: none;
 }
 
+.chat{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+}
 .contador:active{
   opacity: 0.8;
   box-shadow: 0px 0 5px;
@@ -235,7 +218,7 @@ html, body, .contenido{
 }
 
 h3{
-  width: 20%;
+  width: 200px;
   margin: 0 auto;
   position: absolute;
   left: 0;
@@ -270,7 +253,7 @@ h3{
   height: auto;
   width: auto;
   max-width: 80%;
-  background-color: rgba(255,127,80,0.5);
+  background-color: #fff;
   float: left;
   margin-bottom: 2%;
   padding: 7px;
@@ -300,42 +283,34 @@ input{
 }
 
 button{
-  padding: 7px;
-  font-size: 0.8em;
-  position: absolute;
-  bottom: 10%;
-  right: 5%;
-  border: solid 1px black;
+  font-size: 1em;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  background-color: rgb(255,153,51);
+  margin: 0 auto;
+  line-height: 1.4em;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   outline: none;
 }
-
 .contador{
-    padding: 7px;
-    font-size: 0.8em;
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+.chat{
     position: absolute;
     bottom: 10%;
-    left: 5%;
-    border: solid 1px black;
-    outline: none;
+    right: 5%;
 }
 
 .contador:active{
   opacity: 0.8;
   box-shadow: 0px 0 5px;
-}
-
-header #atras{
-  height: 100%;
-  width: auto;
-  position: absolute;
-  background-image: url(../iconetes/atras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-size: 1em;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  margin-left: 2%;
 }
 
 }

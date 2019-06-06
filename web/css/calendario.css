@@ -20,6 +20,11 @@
     line-height: 25px;
   }
 
+  .acon{
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+  }
+
 }
 
 
