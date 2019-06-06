@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ca">
+
 <head>
+  <html lang="es" manifest="../cache.manifest">
   <meta charset="UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
-  <link rel="icon" sizes="192x192" href="../iconetes/logo.png">
-  <link rel="icon" sizes="512x512" href="../iconetes/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+
+  <meta name="theme-color" content="#FF9933">
+  <meta name="msapplication-navbutton-color" content="#FF9933">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#FF9933">
+
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="icon" sizes="512x512" href="img/icon.png">
   <link rel="apple-touch-icon" sizes="192x192" href="img/icon.png">
+
   <link rel="stylesheet" type="text/css" href="../css/comun.css">
   <link rel="stylesheet" type="text/css" href="../css/perfil.css">
   <link rel="stylesheet" href="../css/barra_vertical.css">
@@ -21,73 +28,85 @@
 
 <body>
   <header>
-    <a href="inicio.html"><div class="atras"></div></a>
-    <a href="subapartados/configuracion.html"><p><b>Configuració</b></p></a>
+    <a href="inicio.html">
+      <div class="atras"></div>
+    </a>
+    <a href="subapartados/configuracion.html">
+      <p><b>Configuració</b></p>
+    </a>
   </header>
 
 
-<div class="central">
+  <div class="central">
 
-<div class="arriba">
-  <div class="izq">
-    <img src="../iconetes/perfil.png" alt="">
-  </br>
-    <input type="file" id="miArchivo"></input>
-    <p>@usuari</p>
-    <p id="descripcion">Aquí va la teva descripció.</p>
+    <div class="arriba">
+      <div class="izq">
+        <img src="../iconetes/perfil.png" alt="">
+        </br>
+        <p>@usuari</p>
+        <p id="descripcion">Aquí va la teva descripció.</p>
+      </div>
+
+      <div class="drc">
+
+        <div class="inp">
+          <input type="text" placeholder="Nom:"></input>
+          <input type="text" placeholder="Edat:"></input>
+          <input type="text" placeholder="Sexe:"></input>
+          <input type="text" placeholder="Correu:"></input>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="abajo">
+      <a href="subapartados/objetivos_curso.html">
+        <div class="apartado">
+          OBJETIUS EN CURS
+        </div>
+      </a>
+
+      <a href="subapartados/objetivos_conseguido.html">
+        <div class="apartado">OBJECTIUS ACONSEGUITS</div>
+      </a>
+
+      <a href="subapartados/favoritos.html">
+        <div class="apartado">
+          FAVORITS
+        </div>
+      </a>
+
+      <a href="subapartados/legal.html">
+        <p class="legales"><b>TERMES LEGALS</b></p>
+    </div>
   </div>
 
-  <div class="drc">
+  <footer>
+    <a href="inicio.html" target="_self">
+      <div class="lista">
+        <img src="../iconetes/inicio.png" class="iconetes">
+      </div>
+    </a>
 
-<div class="txt">
-  <p>Nom: </p>
-  <p>Edat: </p>
-  <p>Sexe: </p>
-  <p>Correu: </p>
-</div>
+    <a href="notas.html" target="_self">
+      <div class="lista" style=" border-left: 1px solid black;">
+        <img src="../iconetes/note.png" class="iconetes">
+      </div>
+    </a>
 
-<div class="inp">
-  <input type="text"></input>
-  <input type="text"></input>
-  <input type="text"></input>
-  <input type="text"></input>
-</div>
-</div>
-</div>
+    <a href="calendario.html" target="_self">
+      <div class="lista" style=" border-left: 1px solid black;">
+        <img src="../iconetes/calendar.png" class="iconetes">
+      </div>
+    </a>
 
-
-<div class="abajo">
-  <a href="subapartados/objetivos_curso.html"><div class="apartado">
-    OBJETIUS EN CURS
-  </div></a>
-
-  <a href="subapartados/objetivos_conseguido.html"><div class="apartado">OBJECTIUS ACONSEGUITS</div></a>
-
-  <a href="subapartados/favoritos.html"><div class="apartado">
-    FAVORITS
-  </div></a>
-
-  <a href="subapartados/legal.html"><p class="legales"><b>TERMES LEGALS</b></p>
-</div>
-</div>
-
-<footer>
-  <a href="inicio.html" target="_self"> <div class="lista">
-    <img src="../iconetes/inicio.png" class="iconetes">
-  </div></a>
-
-  <a href="notas.html" target="_self"> <div class="lista" style=" border-left: 1px solid black;">
-    <img src="../iconetes/note.png" class="iconetes">
-  </div></a>
-
-  <a href="calendario.html" target="_self"> <div class="lista" style=" border-left: 1px solid black;">
-    <img src="../iconetes/calendar.png" class="iconetes">
-  </div></a>
-
-  <a href="perfil.html" target="_self"> <div class="lista" style=" border-left: 1px solid black;">
-    <img src="../iconetes/perfil.png" class="iconetes">
-  </div></a>
-</footer>
+    <a href="perfil.html" target="_self">
+      <div class="lista" style=" border-left: 1px solid black;">
+        <img src="../iconetes/perfil.png" class="iconetes">
+      </div>
+    </a>
+  </footer>
 
 </body>
+
 </html>
