@@ -1,0 +1,9 @@
+CACHE MANIFEST
+
+index.html
+css/*
+html/*
+img/*
+js/*
+imagenes/*
+iconetes/*
