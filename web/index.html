@@ -25,17 +25,26 @@
 
 
   <script type”javascript="" text”="">
-      document.addEventListener(‘DOMContentLoaded’, function(){
-         var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) && navigator.appVersion.match(/OS (\d)/) && parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7 && window.navigator.standalone;
-         if (updateStatusBar) {
-             document.body.classList.add(‘platform-ios’);
-             document.body.classList.add(‘platform-cordova’);
-         }
-       });
+    document.addEventListener(‘DOMContentLoaded’, function() {
+      var updateStatusBar = navigator.userAgent.match(/iphone|ipad|ipod/i) && navigator.appVersion.match(/OS (\d)/) && parseInt(navigator.appVersion.match(/OS (\d)/)[1], 10) >= 7 && window.navigator.standalone;
+      if (updateStatusBar) {
+        document.body.classList.add(‘platform - ios’);
+        document.body.classList.add(‘platform - cordova’);
+      }
+    });
 
-       function navigator_Go(url) {
-    window.location.assign(url); // This technique is almost exactly the same as a full <a> page refresh, but it prevents Mobile Safari from jumping out of full-screen mode
-}
+    function navigator_Go(url) {
+      window.location.assign(url); // This technique is almost exactly the same as a full <a> page refresh, but it prevents Mobile Safari from jumping out of full-screen mode
+    }
+
+
+    var a = document.getElementsByTagName("a");
+    for (var i = 0; i < a.length; i++) {
+      a[i].onclick = function() {
+        window.location = this.getAttribute("href");
+        return false
+      }
+    }
   </script>
 
 
